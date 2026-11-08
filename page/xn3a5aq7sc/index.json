@@ -1,0 +1,39 @@
+{
+  "id": "xn3a5aq7sc",
+  "name": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "description": {
+    "tr": "Makine parkı ve şantiye görüntüleri; temsilidir.",
+    "en": "Fleet and site images; illustrative.",
+    "ar": "صور الأسطول والمواقع؛ توضيحية."
+  },
+  "keyword": {
+    "tr": "galeri, fotoğraf",
+    "en": "gallery, photos",
+    "ar": "معرض، صور"
+  },
+  "path": "galeri",
+  "icon": "photo_library",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "hitm5z"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Galeri",
+    "en": "Gallery",
+    "ar": "المعرض"
+  },
+  "date": "2026-10-31T14:46:03.245Z",
+  "update": "2026-10-31T14:50:06.958Z"
+}

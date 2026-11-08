@@ -1,0 +1,43 @@
+{
+  "id": "k0d913kyry",
+  "name": {
+    "tr": "Kiralama Koşulları",
+    "en": "Rental Terms",
+    "ar": "شروط التأجير"
+  },
+  "description": {
+    "tr": "Operatörlü/operatörsüz kiralama ve periyodik kontrol bilgisi.",
+    "en": "Operated / dry hire and periodic-inspection information.",
+    "ar": "التأجير مع مشغّل أو بدونه ومعلومات الفحص الدوري."
+  },
+  "keyword": {
+    "tr": "kiralama koşulları",
+    "en": "rental terms",
+    "ar": "شروط التأجير"
+  },
+  "path": "kiralama-kosullari",
+  "icon": "gavel",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "rjvabs"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kiralama koşulları</h2><p>Makineler operatörlü ya da operatörsüz kiralanabilir; operatörsüz kiralamada geçerli mesleki yeterlilik belgesi istenir.</p><p>Çalışma sahası, zemin ve erişim koşulları kiralama öncesi keşifle belirlenir. Yakıt, nakliye ve sigorta kalemleri teklifte ayrı yazılır.</p><p>Kaldırma ekipmanları periyodik kontrolden geçer; kontrol raporları ve operatör mesleki yeterlilik belgeleri (DEMO) güncel tutulur.</p><p><em>Demo sitedir; koşullar örnektir.</em></p>",
+    "en": "<h2>Rental terms</h2><p>Machines can be rented with or without an operator; for dry hire a valid vocational qualification certificate is required.</p><p>The work area, ground and access conditions are set by a survey before hire. Fuel, transport and insurance items are listed separately in the quote.</p><p>Lifting equipment goes through periodic inspection; inspection reports and operator vocational qualification certificates (DEMO) are kept current.</p><p><em>This is a demo site; the terms are examples.</em></p>",
+    "ar": "<h2>شروط التأجير</h2><p>يمكن تأجير الآليات بمشغّل أو بدونه؛ وعند التأجير بدون مشغّل تُطلب شهادة كفاءة مهنية سارية.</p><p>تُحدَّد منطقة العمل وظروف الأرض والوصول بمعاينة قبل التأجير. وتُذكر بنود الوقود والنقل والتأمين منفصلة في العرض.</p><p>تخضع معدات الرفع لفحص دوري؛ وتُحدَّث تقارير الفحص وشهادات الكفاءة المهنية للمشغلين (DEMO) باستمرار.</p><p><em>هذا موقع تجريبي والشروط أمثلة.</em></p>"
+  },
+  "title": {
+    "tr": "Kiralama Koşulları",
+    "en": "Rental Terms",
+    "ar": "شروط التأجير"
+  },
+  "date": "2026-10-31T14:46:03.238Z",
+  "update": "2026-10-31T14:50:06.954Z"
+}

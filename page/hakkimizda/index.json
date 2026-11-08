@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 4,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "s6xtx2",
+      "w3801d"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Kızıl Vinç, ağır kaldırma işlerinde güvenliği ve belgeyi pazarlıktan önce sayan kurgusal bir demo firmadır. Bu sitedeki makine, belge ve adres bilgileri kurgusaldır.",
+    "en": "Kizil Vinc is a fictional demo company that puts safety and documentation before bargaining in heavy lifting work. Machines, documents and addresses on this site are fictional.",
+    "ar": "قزل فينتش شركة تجريبية افتراضية تضع السلامة والتوثيق قبل المساومة في أعمال الرفع الثقيل. الآليات والوثائق والعناوين في هذا الموقع افتراضية."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Hakkımızda",
+    "en": "About",
+    "ar": "من نحن"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-10-31T14:50:06.960Z",
+  "date": "2026-10-30"
+}
