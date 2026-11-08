@@ -1,0 +1,39 @@
+{
+  "id": "zwiaxdby0i",
+  "name": {
+    "tr": "Teklif Al",
+    "en": "Get a Quote",
+    "ar": "اطلب عرض سعر"
+  },
+  "description": {
+    "tr": "Makine grubunu ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur.",
+    "en": "Choose a machine group and a convenient day; on this demo site your request is created only in your browser.",
+    "ar": "اختر مجموعة الآلية واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط."
+  },
+  "keyword": {
+    "tr": "iş makinesi, vinç kiralama, ekskavatör",
+    "en": "construction machinery, crane hire, excavator",
+    "ar": "آليات إنشائية، تأجير رافعات، حفار"
+  },
+  "path": "teklif-al",
+  "icon": "request_quote",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "rpkiuy"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Teklif Al",
+    "en": "Get a Quote",
+    "ar": "اطلب عرض سعر"
+  },
+  "date": "2026-10-31T14:46:03.241Z",
+  "update": "2026-10-31T14:50:06.956Z"
+}

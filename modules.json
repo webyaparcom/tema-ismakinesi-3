@@ -1,0 +1,4100 @@
+{
+  "data": [
+    {
+      "name": "Demo Bandı",
+      "path": "demo-bandi",
+      "local": "header",
+      "category": "demo",
+      "id": "g1db01",
+      "desing": {
+        "tone": "info",
+        "bandBg": "",
+        "bandFg": "",
+        "ctaHref": "https://webyapar.com/temalar#ismakinesi-3",
+        "ariaLabel": {
+          "tr": "Demo site uyarısı",
+          "en": "Demo site notice",
+          "ar": "تنبيه الموقع التجريبي"
+        },
+        "text": {
+          "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
+          "en": "This is a demo site — the content is fictional and no payment is taken",
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        }
+      },
+      "version": "1.0.0",
+      "icon": "info",
+      "index": 0
+    },
+    {
+      "name": "Menü 4",
+      "path": "menu-4",
+      "local": "header",
+      "category": "menu",
+      "id": "g1mn01",
+      "desing": {
+        "logo": "logo.png",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "height": "84px",
+        "background-color": "var(--mx-site-bg, #ffffff)",
+        "menubg": "",
+        "menutext": "#fff",
+        "menuhoverbg": "rgba(255,255,255,.18)"
+      },
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 1
+    },
+    {
+      "name": "Hero 2 (Ortalanmış)",
+      "path": "hero-2",
+      "local": "body",
+      "category": "hero",
+      "id": "g1hr01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "glow1": "rgba(255,255,255,.16)",
+        "glow2": "rgba(255,255,255,.1)",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "badge": {
+          "tr": "Projelerimiz",
+          "en": "Our projects",
+          "ar": "مشاريعنا"
+        },
+        "title": {
+          "tr": "Güvenle inşa ediyoruz",
+          "en": "We build with confidence",
+          "ar": "نبني بثقة"
+        },
+        "description": {
+          "tr": "Konut, ticari ve karma projelerde zamanında teslim, şeffaf süreç.",
+          "en": "On-time delivery and a transparent process across residential, commercial and mixed-use projects.",
+          "ar": "تسليم في الموعد وعملية شفافة في المشاريع السكنية والتجارية والمختلطة."
+        },
+        "btn1Text": {
+          "tr": "Projeleri gör",
+          "en": "See projects",
+          "ar": "عرض المشاريع"
+        },
+        "btn1Url": "projelerimiz",
+        "btn2Text": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرضًا"
+        },
+        "btn2Url": "iletisim"
+      },
+      "version": "1.0.0",
+      "icon": "hero",
+      "index": 2
+    },
+    {
+      "name": "Proje Kartları (Filtre + Arama)",
+      "path": "proje-kart-filtre",
+      "local": "body",
+      "category": "proje",
+      "id": "g1pk01",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "statusDevam": "#b45309",
+        "statusTamam": "#15803d",
+        "statusYakinda": "#1d4ed8",
+        "gap": "20px",
+        "radius": "14px",
+        "columns": {
+          "d": 3,
+          "t": 2,
+          "m": 1
+        },
+        "ratio": "4:3",
+        "search": true,
+        "sort": "year",
+        "sortSelect": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Projelerimiz",
+          "en": "Our Projects",
+          "ar": "مشاريعنا"
+        },
+        "description": {
+          "tr": "Tamamladığımız ve sürdürdüğümüz çalışmalar. Kategori, durum ya da anahtar sözcükle süzün.",
+          "en": "Work we have completed and work still in progress. Filter by category, status or keyword.",
+          "ar": "الأعمال التي أنجزناها وتلك الجارية. صفِّ حسب الفئة أو الحالة أو كلمة مفتاحية."
+        },
+        "searchLabel": {
+          "tr": "Projelerde ara",
+          "en": "Search projects",
+          "ar": "البحث في المشاريع"
+        },
+        "searchPlaceholder": {
+          "tr": "Proje, konum veya yıl ara…",
+          "en": "Search project, place or year…",
+          "ar": "ابحث عن مشروع أو موقع أو سنة…"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "statusFieldLabel": {
+          "tr": "Durum",
+          "en": "Status",
+          "ar": "الحالة"
+        },
+        "allStatusLabel": {
+          "tr": "Tüm durumlar",
+          "en": "All statuses",
+          "ar": "كل الحالات"
+        },
+        "sortFieldLabel": {
+          "tr": "Sıralama",
+          "en": "Sort by",
+          "ar": "الترتيب"
+        },
+        "sortYearLabel": {
+          "tr": "Yıl (yeniden eskiye)",
+          "en": "Year (newest first)",
+          "ar": "السنة (الأحدث أولًا)"
+        },
+        "sortTitleLabel": {
+          "tr": "Ad (A → Z)",
+          "en": "Name (A → Z)",
+          "ar": "الاسم (أبجديًا)"
+        },
+        "detailLabel": {
+          "tr": "Detayı incele",
+          "en": "View details",
+          "ar": "عرض التفاصيل"
+        },
+        "yearLabel": {
+          "tr": "Yıl",
+          "en": "Year",
+          "ar": "السنة"
+        },
+        "clearLabel": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan proje bulunamadı. Filtreleri değiştirmeyi deneyin.",
+          "en": "No projects match your search. Try changing the filters.",
+          "ar": "لم نعثر على مشاريع مطابقة لبحثك. جرّب تغيير عوامل التصفية."
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد مشاريع"
+          },
+          "one": {
+            "tr": "{n} proje",
+            "en": "{n} project",
+            "ar": "مشروع واحد"
+          },
+          "two": {
+            "ar": "مشروعان"
+          },
+          "few": {
+            "ar": "{n} مشاريع"
+          },
+          "many": {
+            "ar": "{n} مشروعًا"
+          },
+          "other": {
+            "tr": "{n} proje",
+            "en": "{n} projects",
+            "ar": "{n} مشروع"
+          }
+        },
+        "statusLabels": {
+          "devam": {
+            "tr": "Devam ediyor",
+            "en": "In progress",
+            "ar": "قيد التنفيذ"
+          },
+          "tamam": {
+            "tr": "Tamamlandı",
+            "en": "Completed",
+            "ar": "مكتمل"
+          },
+          "yakinda": {
+            "tr": "Yakında",
+            "en": "Coming soon",
+            "ar": "قريبًا"
+          }
+        },
+        "cats": [
+          {
+            "id": "konut",
+            "name": {
+              "tr": "Konut",
+              "en": "Residential",
+              "ar": "سكني"
+            }
+          },
+          {
+            "id": "ticari",
+            "name": {
+              "tr": "Ticari",
+              "en": "Commercial",
+              "ar": "تجاري"
+            }
+          },
+          {
+            "id": "endustri",
+            "name": {
+              "tr": "Endüstriyel",
+              "en": "Industrial",
+              "ar": "صناعي"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "domain",
+      "data": [
+        {
+          "id": "vadi-konutlari",
+          "title": {
+            "tr": "Vadi Konutları",
+            "en": "Valley Residences",
+            "ar": "مساكن الوادي"
+          },
+          "cat": "konut",
+          "year": 2026,
+          "status": "devam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "12.400 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehit Kamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            }
+          ]
+        },
+        {
+          "id": "carsi-is-merkezi",
+          "title": {
+            "tr": "Çarşı İş Merkezi",
+            "en": "Bazaar Business Center",
+            "ar": "مركز السوق للأعمال"
+          },
+          "cat": "ticari",
+          "year": 2024,
+          "status": "tamam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "8.750 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بك"
+              }
+            }
+          ]
+        },
+        {
+          "id": "organize-depo",
+          "title": {
+            "tr": "Organize Lojistik Deposu",
+            "en": "Industrial Logistics Warehouse",
+            "ar": "مستودع لوجستي صناعي"
+          },
+          "cat": "endustri",
+          "year": 2025,
+          "status": "tamam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "22.000 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Organize Sanayi",
+                "en": "Industrial Zone",
+                "ar": "المنطقة الصناعية"
+              }
+            }
+          ]
+        },
+        {
+          "id": "park-evleri",
+          "title": {
+            "tr": "Park Evleri",
+            "en": "Park Homes",
+            "ar": "منازل الحديقة"
+          },
+          "cat": "konut",
+          "year": 2023,
+          "status": "tamam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "6.900 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Nizip",
+                "en": "Nizip",
+                "ar": "نزيب"
+              }
+            }
+          ]
+        },
+        {
+          "id": "kule-plaza",
+          "title": {
+            "tr": "Kule Plaza",
+            "en": "Tower Plaza",
+            "ar": "برج بلازا"
+          },
+          "cat": "ticari",
+          "year": 2027,
+          "status": "yakinda",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "15.300 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehir merkezi",
+                "en": "City center",
+                "ar": "وسط المدينة"
+              }
+            }
+          ]
+        },
+        {
+          "id": "uretim-tesisi",
+          "title": {
+            "tr": "Üretim Tesisi Genişletme",
+            "en": "Production Plant Expansion",
+            "ar": "توسعة منشأة الإنتاج"
+          },
+          "cat": "endustri",
+          "year": 2026,
+          "status": "devam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "9.600 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Organize Sanayi",
+                "en": "Industrial Zone",
+                "ar": "المنطقة الصناعية"
+              }
+            }
+          ]
+        }
+      ],
+      "index": 3
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "path": "stats-1",
+      "local": "body",
+      "category": "stats",
+      "id": "g1st01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "monitoring",
+      "data": [
+        {
+          "number": 150,
+          "suffix": "+",
+          "label": {
+            "tr": "Tamamlanan Proje",
+            "en": "Completed Projects",
+            "ar": "مشروع منجز"
+          },
+          "icon": "task_alt"
+        },
+        {
+          "number": 50,
+          "suffix": "+",
+          "label": {
+            "tr": "Mutlu Müşteri",
+            "en": "Happy Customers",
+            "ar": "عميل سعيد"
+          },
+          "icon": "sentiment_satisfied"
+        },
+        {
+          "number": 10,
+          "suffix": "+",
+          "label": {
+            "tr": "Yıllık Deneyim",
+            "en": "Years of Experience",
+            "ar": "سنوات من الخبرة"
+          },
+          "icon": "workspace_premium"
+        },
+        {
+          "number": 24,
+          "suffix": "/7",
+          "label": {
+            "tr": "Destek",
+            "en": "Support",
+            "ar": "الدعم"
+          },
+          "icon": "support_agent"
+        }
+      ],
+      "index": 4
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "path": "galeri-masonry",
+      "local": "body",
+      "category": "galeri",
+      "id": "g1gm01",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "12px",
+        "radius": "8px",
+        "columns": {
+          "d": 4,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Galeri",
+          "en": "Gallery",
+          "ar": "المعرض"
+        },
+        "description": {
+          "tr": "Çalışmalarımızdan seçilmiş kareler. Kategoriye göre süzün, büyütmek için dokunun.",
+          "en": "A selection of frames from our work. Filter by category and tap to enlarge.",
+          "ar": "مختارات من أعمالنا. صفِّ حسب الفئة، وانقر على الصورة لتكبيرها."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "mekan",
+            "name": {
+              "tr": "Mekan",
+              "en": "Spaces",
+              "ar": "المساحات"
+            }
+          },
+          {
+            "id": "detay",
+            "name": {
+              "tr": "Detay",
+              "en": "Details",
+              "ar": "التفاصيل"
+            }
+          },
+          {
+            "id": "surec",
+            "name": {
+              "tr": "Süreç",
+              "en": "Process",
+              "ar": "سير العمل"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "data": [
+        {
+          "img": "",
+          "title": {
+            "tr": "Giriş alanı",
+            "en": "Entrance area",
+            "ar": "منطقة المدخل"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Aydınlık giriş alanı",
+            "en": "Bright entrance area",
+            "ar": "منطقة مدخل مضيئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Ana salon",
+            "en": "Main hall",
+            "ar": "القاعة الرئيسية"
+          },
+          "cat": "mekan",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Geniş ana salon",
+            "en": "Spacious main hall",
+            "ar": "قاعة رئيسية واسعة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Malzeme seçimi",
+            "en": "Material selection",
+            "ar": "اختيار المواد"
+          },
+          "cat": "detay",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Yakın çekim doku",
+            "en": "Close-up texture",
+            "ar": "نسيج بلقطة مقرّبة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Aydınlatma",
+            "en": "Lighting",
+            "ar": "الإضاءة"
+          },
+          "cat": "detay",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Sıcak ışıklı detay",
+            "en": "Warm-lit detail",
+            "ar": "تفصيل بإضاءة دافئة"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Çizim masası",
+            "en": "Drafting table",
+            "ar": "طاولة الرسم"
+          },
+          "cat": "surec",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Çalışma masasında planlar",
+            "en": "Plans on the work table",
+            "ar": "مخططات على طاولة العمل"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Uygulama",
+            "en": "On site",
+            "ar": "التنفيذ"
+          },
+          "cat": "surec",
+          "w": 1000,
+          "h": 1000,
+          "alt": {
+            "tr": "Uygulama aşaması",
+            "en": "Installation stage",
+            "ar": "مرحلة التنفيذ"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Teslim",
+            "en": "Handover",
+            "ar": "التسليم"
+          },
+          "cat": "mekan",
+          "w": 800,
+          "h": 1000,
+          "alt": {
+            "tr": "Teslim edilen mekan",
+            "en": "Finished space",
+            "ar": "المساحة بعد التسليم"
+          }
+        },
+        {
+          "img": "",
+          "title": {
+            "tr": "Son dokunuşlar",
+            "en": "Finishing touches",
+            "ar": "اللمسات الأخيرة"
+          },
+          "cat": "detay",
+          "w": 1200,
+          "h": 800,
+          "alt": {
+            "tr": "Son dokunuş detayı",
+            "en": "Finishing detail",
+            "ar": "تفصيل اللمسات الأخيرة"
+          }
+        }
+      ],
+      "index": 5
+    },
+    {
+      "name": "CTA Şerit 1",
+      "path": "cta-1",
+      "local": "body",
+      "category": "cta",
+      "id": "g1ca01",
+      "desing": {
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "var(--mx-site-surface, #ffffff)",
+        "btncolor": "var(--mx-site-text, #1b1b1b)",
+        "title": {
+          "tr": "Projenizi konuşalım",
+          "en": "Let's talk about your project",
+          "ar": "لنتحدث عن مشروعك"
+        },
+        "description": {
+          "tr": "Ücretsiz keşif için bize ulaşın. Görseller temsilidir.",
+          "en": "Reach out for a free site visit. Images are illustrative.",
+          "ar": "تواصل معنا لزيارة موقع مجانية. الصور توضيحية."
+        },
+        "btn1Text": {
+          "tr": "İletişime geç",
+          "en": "Contact us",
+          "ar": "تواصل معنا"
+        },
+        "btn1Url": "iletisim",
+        "btn2Text": {
+          "tr": "Projeler",
+          "en": "Projects",
+          "ar": "المشاريع"
+        },
+        "btn2Url": "projelerimiz",
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "campaign",
+      "index": 6
+    },
+    {
+      "name": "Footer 3",
+      "path": "footer-3",
+      "local": "footer",
+      "category": "footer",
+      "id": "g1ft01",
+      "desing": {
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface-2, #f1f1ee)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "minimal_design": true,
+        "social_media": false,
+        "logo_maxh": "60px",
+        "logo_plate": false,
+        "contact_line": "auto"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "data": [],
+      "index": 7
+    },
+    {
+      "name": "İletişim",
+      "path": "contact-3",
+      "local": "body",
+      "category": "contact",
+      "id": "g1ct01",
+      "desing": {
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "تواصل معنا"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)",
+        "stil": ""
+      },
+      "version": "1.0.0",
+      "icon": "contact_mail",
+      "data": [
+        {
+          "icon": "phone",
+          "text": "+90",
+          "url": ""
+        },
+        {
+          "icon": "email",
+          "text": ""
+        },
+        {
+          "icon": "map",
+          "text": ""
+        }
+      ],
+      "index": 8
+    },
+    {
+      "name": "Maps",
+      "path": "map-2",
+      "local": "body",
+      "category": "map",
+      "id": "g1mp01",
+      "desing": {
+        "height": "200px",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "img": "map.png",
+        "externalUrl": "",
+        "margin": "0px"
+      },
+      "version": "1.0.0",
+      "icon": "widgets",
+      "index": 9
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "path": "module-1",
+      "local": "body",
+      "category": "module",
+      "id": "g1in01",
+      "desing": {
+        "name": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        },
+        "description": {
+          "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
+          "en": "This page is a theme sample; its content is filled in during demo production.",
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+        },
+        "name2": {
+          "tr": "Vizyonumuz",
+          "en": "Our Vision",
+          "ar": "رؤيتنا"
+        },
+        "spot2": {
+          "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
+          "en": "To lead our industry with innovative approaches.",
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+        },
+        "icon2": "visibility",
+        "name3": {
+          "tr": "Misyonumuz",
+          "en": "Our Mission",
+          "ar": "مهمتنا"
+        },
+        "spot3": {
+          "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
+          "en": "Deliver needed solutions quickly and transparently.",
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+        },
+        "icon3": "flag",
+        "img": "index.jpg",
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Kurumsal",
+          "en": "Corporate",
+          "ar": "المؤسسة"
+        },
+        "stil": ""
+      },
+      "version": "1.1.0",
+      "icon": "business",
+      "index": 10
+    },
+    {
+      "name": "Proje Kartları (Filtre + Arama)",
+      "path": "proje-kart-filtre",
+      "local": "body",
+      "category": "proje",
+      "id": "g1pk02",
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #ffffff)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "statusDevam": "#b45309",
+        "statusTamam": "#15803d",
+        "statusYakinda": "#1d4ed8",
+        "gap": "20px",
+        "radius": "14px",
+        "columns": {
+          "d": 3,
+          "t": 2,
+          "m": 1
+        },
+        "ratio": "4:3",
+        "search": true,
+        "sort": "year",
+        "sortSelect": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Projelerimiz",
+          "en": "Our Projects",
+          "ar": "مشاريعنا"
+        },
+        "description": {
+          "tr": "Tamamladığımız ve sürdürdüğümüz çalışmalar. Kategori, durum ya da anahtar sözcükle süzün.",
+          "en": "Work we have completed and work still in progress. Filter by category, status or keyword.",
+          "ar": "الأعمال التي أنجزناها وتلك الجارية. صفِّ حسب الفئة أو الحالة أو كلمة مفتاحية."
+        },
+        "searchLabel": {
+          "tr": "Projelerde ara",
+          "en": "Search projects",
+          "ar": "البحث في المشاريع"
+        },
+        "searchPlaceholder": {
+          "tr": "Proje, konum veya yıl ara…",
+          "en": "Search project, place or year…",
+          "ar": "ابحث عن مشروع أو موقع أو سنة…"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "statusFieldLabel": {
+          "tr": "Durum",
+          "en": "Status",
+          "ar": "الحالة"
+        },
+        "allStatusLabel": {
+          "tr": "Tüm durumlar",
+          "en": "All statuses",
+          "ar": "كل الحالات"
+        },
+        "sortFieldLabel": {
+          "tr": "Sıralama",
+          "en": "Sort by",
+          "ar": "الترتيب"
+        },
+        "sortYearLabel": {
+          "tr": "Yıl (yeniden eskiye)",
+          "en": "Year (newest first)",
+          "ar": "السنة (الأحدث أولًا)"
+        },
+        "sortTitleLabel": {
+          "tr": "Ad (A → Z)",
+          "en": "Name (A → Z)",
+          "ar": "الاسم (أبجديًا)"
+        },
+        "detailLabel": {
+          "tr": "Detayı incele",
+          "en": "View details",
+          "ar": "عرض التفاصيل"
+        },
+        "yearLabel": {
+          "tr": "Yıl",
+          "en": "Year",
+          "ar": "السنة"
+        },
+        "clearLabel": {
+          "tr": "Filtreleri temizle",
+          "en": "Clear filters",
+          "ar": "مسح عوامل التصفية"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan proje bulunamadı. Filtreleri değiştirmeyi deneyin.",
+          "en": "No projects match your search. Try changing the filters.",
+          "ar": "لم نعثر على مشاريع مطابقة لبحثك. جرّب تغيير عوامل التصفية."
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد مشاريع"
+          },
+          "one": {
+            "tr": "{n} proje",
+            "en": "{n} project",
+            "ar": "مشروع واحد"
+          },
+          "two": {
+            "ar": "مشروعان"
+          },
+          "few": {
+            "ar": "{n} مشاريع"
+          },
+          "many": {
+            "ar": "{n} مشروعًا"
+          },
+          "other": {
+            "tr": "{n} proje",
+            "en": "{n} projects",
+            "ar": "{n} مشروع"
+          }
+        },
+        "statusLabels": {
+          "devam": {
+            "tr": "Devam ediyor",
+            "en": "In progress",
+            "ar": "قيد التنفيذ"
+          },
+          "tamam": {
+            "tr": "Tamamlandı",
+            "en": "Completed",
+            "ar": "مكتمل"
+          },
+          "yakinda": {
+            "tr": "Yakında",
+            "en": "Coming soon",
+            "ar": "قريبًا"
+          }
+        },
+        "cats": [
+          {
+            "id": "konut",
+            "name": {
+              "tr": "Konut",
+              "en": "Residential",
+              "ar": "سكني"
+            }
+          },
+          {
+            "id": "ticari",
+            "name": {
+              "tr": "Ticari",
+              "en": "Commercial",
+              "ar": "تجاري"
+            }
+          },
+          {
+            "id": "endustri",
+            "name": {
+              "tr": "Endüstriyel",
+              "en": "Industrial",
+              "ar": "صناعي"
+            }
+          }
+        ]
+      },
+      "version": "1.0.0",
+      "icon": "domain",
+      "data": [
+        {
+          "id": "vadi-konutlari",
+          "title": {
+            "tr": "Vadi Konutları",
+            "en": "Valley Residences",
+            "ar": "مساكن الوادي"
+          },
+          "cat": "konut",
+          "year": 2026,
+          "status": "devam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "12.400 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehit Kamil",
+                "en": "Sehitkamil",
+                "ar": "شهيد كامل"
+              }
+            }
+          ]
+        },
+        {
+          "id": "carsi-is-merkezi",
+          "title": {
+            "tr": "Çarşı İş Merkezi",
+            "en": "Bazaar Business Center",
+            "ar": "مركز السوق للأعمال"
+          },
+          "cat": "ticari",
+          "year": 2024,
+          "status": "tamam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "8.750 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şahinbey",
+                "en": "Sahinbey",
+                "ar": "شاهين بك"
+              }
+            }
+          ]
+        },
+        {
+          "id": "organize-depo",
+          "title": {
+            "tr": "Organize Lojistik Deposu",
+            "en": "Industrial Logistics Warehouse",
+            "ar": "مستودع لوجستي صناعي"
+          },
+          "cat": "endustri",
+          "year": 2025,
+          "status": "tamam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "22.000 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Organize Sanayi",
+                "en": "Industrial Zone",
+                "ar": "المنطقة الصناعية"
+              }
+            }
+          ]
+        },
+        {
+          "id": "park-evleri",
+          "title": {
+            "tr": "Park Evleri",
+            "en": "Park Homes",
+            "ar": "منازل الحديقة"
+          },
+          "cat": "konut",
+          "year": 2023,
+          "status": "tamam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "6.900 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Nizip",
+                "en": "Nizip",
+                "ar": "نزيب"
+              }
+            }
+          ]
+        },
+        {
+          "id": "kule-plaza",
+          "title": {
+            "tr": "Kule Plaza",
+            "en": "Tower Plaza",
+            "ar": "برج بلازا"
+          },
+          "cat": "ticari",
+          "year": 2027,
+          "status": "yakinda",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "15.300 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Şehir merkezi",
+                "en": "City center",
+                "ar": "وسط المدينة"
+              }
+            }
+          ]
+        },
+        {
+          "id": "uretim-tesisi",
+          "title": {
+            "tr": "Üretim Tesisi Genişletme",
+            "en": "Production Plant Expansion",
+            "ar": "توسعة منشأة الإنتاج"
+          },
+          "cat": "endustri",
+          "year": 2026,
+          "status": "devam",
+          "img": "",
+          "url": "",
+          "meta": [
+            {
+              "k": {
+                "tr": "Alan",
+                "en": "Area",
+                "ar": "المساحة"
+              },
+              "v": "9.600 m²"
+            },
+            {
+              "k": {
+                "tr": "Konum",
+                "en": "Location",
+                "ar": "الموقع"
+              },
+              "v": {
+                "tr": "Organize Sanayi",
+                "en": "Industrial Zone",
+                "ar": "المنطقة الصناعية"
+              }
+            }
+          ]
+        }
+      ],
+      "index": 11
+    },
+    {
+      "name": "Demo Kredi Şeridi",
+      "description": "Demo sitelerin alt bilgisinde duran kredi şeridi: «Bu demo Webyapar tarafından hazırlanmıştır — Bu temayı iste». Marka adı çevrilmez (Latin, dir=ltr izole), bağlantı demo adına göre webyapar.com/temalar#<slug>. Üç dil (TR/EN/AR), mantıksal CSS (RTL), mobilde sarar, reduced-motion'a saygılı.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "demo",
+      "tags": [
+        "demo",
+        "footer",
+        "kredi",
+        "rtl"
+      ],
+      "desing": {
+        "href": "https://webyapar.com/temalar#ismakinesi-3",
+        "brand": "Webyapar",
+        "text": {
+          "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
+          "en": "This demo was prepared by {brand} —",
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+        },
+        "ctaText": {
+          "tr": "Bu temayı iste",
+          "en": "Get this theme",
+          "ar": "اطلب هذا القالب"
+        },
+        "newTabText": {
+          "tr": "(yeni sekmede açılır)",
+          "en": "(opens in a new tab)",
+          "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "ariaLabel": {
+          "tr": "Demo bilgisi",
+          "en": "Demo credit",
+          "ar": "معلومات العرض التجريبي"
+        }
+      },
+      "id": "27lnxe",
+      "path": "demo-kredi",
+      "local": "footer",
+      "data": [],
+      "index": 12
+    },
+    {
+      "name": {
+        "tr": "Menü 10 — Şeffaf overlay",
+        "en": "Menu 10 — Transparent overlay",
+        "ar": "القائمة 10 — شفافة فوق الهيرو"
+      },
+      "description": {
+        "tr": "Hero'nun üstüne binen şeffaf menü (position:absolute): başlangıçta şeffaf zemin + açık yazı (menutextOverlay) ve altında ince koyu gradient scrim; kaydırınca 300 ms'de katı zemine (menubg/menutext) geçer ve sabitlenir. Sayfada hero yoksa (#content ilk çocuğu data-mx-hero / *-hero değilse) baştan katı ve akışta. Mobil: tam ekran panel. desing.stil: sade | cta-butonlu (sağda vurgulu düğme). Dil seçici {{langbar}}. Üç dil + RTL.",
+        "en": "Transparent menu overlaid on the hero (position:absolute): transparent background + light text (menutextOverlay) with a thin dark gradient scrim underneath; on scroll it switches to a solid background (menubg/menutext) in 300 ms and sticks. Without a hero on the page (#content first child lacks data-mx-hero / *-hero) it starts solid and in flow. Mobile: full-screen panel. desing.stil: sade | cta-butonlu (accent button on the end side). Language switcher {{langbar}}. Three languages + RTL.",
+        "ar": "قائمة شفافة فوق الهيرو (position:absolute): خلفية شفافة ونص فاتح (menutextOverlay) مع تدرّج داكن رفيع أسفلها؛ عند التمرير تتحوّل خلال 300 ms إلى خلفية صلبة (menubg/menutext) وتثبت. إن لم توجد وحدة هيرو في الصفحة (أول عنصر في #content بلا data-mx-hero / *-hero) تبدأ صلبة وضمن التدفق. الجوال: لوحة بملء الشاشة. desing.stil: sade | cta-butonlu (زر بارز في جهة النهاية). محدد اللغة {{langbar}}. ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "layers",
+      "category": "menu",
+      "tags": [
+        "menu",
+        "overlay",
+        "seffaf",
+        "transparent",
+        "hero",
+        "sticky",
+        "ar"
+      ],
+      "desing": {
+        "stil": "sade",
+        "logo": "{{logo}}",
+        "logo_acik": "logo-acik.svg",
+        "logo_h": "48px",
+        "max": "1200px",
+        "showlang": true,
+        "menubg": "var(--mx-site-bg, #ffffff)",
+        "menutext": "var(--mx-site-text, #1b1b1b)",
+        "menutextOverlay": "#ffffff",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "cta": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "cta_url": "teklif-al"
+      },
+      "data": [],
+      "id": "olqcr3",
+      "path": "menu-10",
+      "local": "header",
+      "index": 13
+    },
+    {
+      "name": {
+        "tr": "Slider Ken Burns",
+        "en": "Ken Burns Slider",
+        "ar": "سلايدر كين بيرنز"
+      },
+      "description": {
+        "tr": "Sıfır bağımlılıklı tam genişlik slider (Swiper yok): görsel yavaş yakınlaşma/kayma (CSS keyframes 10 sn, reduced-motion'da kapalı), her slaytta eyebrow + h2 + metin + CTA ve metin giriş animasyonu; nokta + ok navigasyon, klavye ←/→, dokunma kaydırma, otomatik oynatma durdur/başlat düğmesi (hover/odakta duraklar, reduced-motion'da kapalı). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (içerik yarı saydam kartta) | bolunmus (görsel bitiş tarafında, metin düz zeminde). Yükseklik desing.yukseklik (vh, min 420px). Üç dil + RTL.",
+        "en": "Zero-dependency full-width slider (no Swiper): slow image zoom/pan (CSS keyframes 10 s, off under reduced-motion), eyebrow + h2 + text + CTA per slide with text entrance animation; dot + arrow navigation, keyboard ←/→, touch swipe, autoplay pause/play button (pauses on hover/focus, off under reduced-motion). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (content in a translucent card) | bolunmus (image on the end side, text on a solid background). Height desing.yukseklik (vh, min 420px). Three languages + RTL.",
+        "ar": "سلايدر بعرض كامل بدون أي تبعيات (بلا Swiper): تقريب/تحريك بطيء للصورة (CSS keyframes 10 ث، يتوقف عند تقليل الحركة)، في كل شريحة تسمية + h2 + نص + زر مع حركة دخول للنص؛ تنقّل بالنقاط والأسهم، لوحة المفاتيح ←/→، سحب باللمس، زر إيقاف/تشغيل التشغيل التلقائي (يتوقف عند التحويم/التركيز، ومعطّل عند تقليل الحركة). data[] = [{img, alt{}, eyebrow{}, title{}, text{}, cta{}, url}]. desing.stil: tam | kart (المحتوى في بطاقة شبه شفافة) | bolunmus (الصورة في جهة النهاية والنص على خلفية صلبة). الارتفاع desing.yukseklik (vh، الحد الأدنى 420px). ثلاث لغات + RTL."
+      },
+      "version": "1.0.0",
+      "icon": "slideshow",
+      "category": "slider",
+      "tags": [
+        "slider",
+        "kenburns",
+        "ken-burns",
+        "karusel",
+        "hero",
+        "sifir-bagimlilik",
+        "ar"
+      ],
+      "desing": {
+        "stil": "tam",
+        "yukseklik": 78,
+        "sure": 6500,
+        "otomatik": true,
+        "max": "1200px",
+        "overlay": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 25%, #0b1220)",
+        "overlayText": "#ffffff",
+        "bg": "var(--mx-site-bg, #ffffff)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "text": "var(--mx-site-text, #1b1b1b)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "radius": "16px",
+        "aria_label": {
+          "tr": "Tanıtım slaytları",
+          "en": "Featured slides",
+          "ar": "شرائح تعريفية"
+        },
+        "prev_label": {
+          "tr": "Önceki slayt",
+          "en": "Previous slide",
+          "ar": "الشريحة السابقة"
+        },
+        "next_label": {
+          "tr": "Sonraki slayt",
+          "en": "Next slide",
+          "ar": "الشريحة التالية"
+        },
+        "dot_label": {
+          "tr": "{n}. slayta git",
+          "en": "Go to slide {n}",
+          "ar": "الانتقال إلى الشريحة {n}"
+        },
+        "pause_label": {
+          "tr": "Otomatik oynatmayı durdur",
+          "en": "Pause autoplay",
+          "ar": "إيقاف التشغيل التلقائي"
+        },
+        "play_label": {
+          "tr": "Otomatik oynatmayı başlat",
+          "en": "Start autoplay",
+          "ar": "بدء التشغيل التلقائي"
+        },
+        "slide_label": {
+          "tr": "{i} / {n}",
+          "en": "{i} of {n}",
+          "ar": "{i} من {n}"
+        }
+      },
+      "data": [
+        {
+          "img": "ismakinesi-vinc.webp",
+          "alt": {
+            "tr": "Kolu açık mobil vinç",
+            "en": "A mobile crane with its boom extended",
+            "ar": "رافعة متنقلة بذراع ممدودة"
+          },
+          "eyebrow": {
+            "tr": "Vinç ve iş makinesi · 7/24 acil hat",
+            "en": "Crane and machinery · 24/7 emergency line",
+            "ar": "رافعات وآليات · خط طوارئ على مدار الساعة"
+          },
+          "title": {
+            "tr": "Kaldırır, taşır, zamanında teslim eder",
+            "en": "Lifts, hauls, delivers on time",
+            "ar": "ترفع وتنقل وتسلّم في الوقت المحدد"
+          },
+          "text": {
+            "tr": "Kızıl Vinç, mobil ve kule vinçten ekskavatöre uzanan bir makine parkını operatörüyle birlikte kiralayan kurgusal bir demo firmadır. Periyodik kontrol raporları ve operatör belgeleri (DEMO) güncel tutulur.",
+            "en": "Kizil Vinc is a fictional demo company hiring out a machine park from mobile and tower cranes to excavators, together with operators. Periodic inspection reports and operator certificates (DEMO) are kept current.",
+            "ar": "قزل فينتش شركة تجريبية افتراضية تؤجر أسطول آليات يمتد من الرافعات المتنقلة والبرجية إلى الحفارات مع مشغّليها. تُحدَّث تقارير الفحص الدوري وشهادات المشغلين (DEMO) باستمرار."
+          },
+          "cta": {
+            "tr": "Teklif al",
+            "en": "Get a quote",
+            "ar": "اطلب عرض سعر"
+          },
+          "url": "teklif-al"
+        },
+        {
+          "img": "ismakinesi-yukleyici.webp",
+          "alt": {
+            "tr": "Lastikli yükleyici",
+            "en": "A wheel loader",
+            "ar": "جرافة بعجلات"
+          },
+          "eyebrow": {
+            "tr": "Makine parkı",
+            "en": "Machine fleet",
+            "ar": "أسطول الآليات"
+          },
+          "title": {
+            "tr": "Paletli ekskavatör",
+            "en": "Crawler excavator",
+            "ar": "حفار زاحف"
+          },
+          "text": {
+            "tr": "Kazı, yükleme ve yıkım işleri için farklı tonajlar.",
+            "en": "Several tonnages for digging, loading and demolition.",
+            "ar": "أوزان متعددة لأعمال الحفر والتحميل والهدم."
+          },
+          "cta": {
+            "tr": "Makine parkı",
+            "en": "Machine fleet",
+            "ar": "أسطول الآليات"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "img": "ismakinesi-vinc.webp",
+          "alt": {
+            "tr": "Kolu açık mobil vinç",
+            "en": "A mobile crane with its boom extended",
+            "ar": "رافعة متنقلة بذراع ممدودة"
+          },
+          "eyebrow": {
+            "tr": "Makine parkı",
+            "en": "Machine fleet",
+            "ar": "أسطول الآليات"
+          },
+          "title": {
+            "tr": "Lastikli yükleyici",
+            "en": "Wheel loader",
+            "ar": "جرافة بعجلات"
+          },
+          "text": {
+            "tr": "Agrega, hafriyat ve malzeme taşıma.",
+            "en": "Aggregate, earthmoving and material handling.",
+            "ar": "نقل الركام والحفريات والمواد."
+          },
+          "cta": {
+            "tr": "Makine parkı",
+            "en": "Machine fleet",
+            "ar": "أسطول الآليات"
+          },
+          "url": "makine-parki"
+        }
+      ],
+      "id": "5uvd4c",
+      "path": "slider-kenburns",
+      "local": "header",
+      "index": 14
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Makine parkı",
+          "en": "Machine fleet",
+          "ar": "أسطول الآليات"
+        },
+        "title": {
+          "tr": "Kiralık makineler",
+          "en": "Machines for hire",
+          "ar": "آليات للتأجير"
+        },
+        "description": {
+          "tr": "Kaldırma ekipmanları periyodik kontrolden geçer; kontrol raporları ve operatör mesleki yeterlilik belgeleri (DEMO) güncel tutulur.",
+          "en": "Lifting equipment goes through periodic inspection; inspection reports and operator vocational qualification certificates (DEMO) are kept current.",
+          "ar": "تخضع معدات الرفع لفحص دوري؛ وتُحدَّث تقارير الفحص وشهادات الكفاءة المهنية للمشغلين (DEMO) باستمرار."
+        }
+      },
+      "data": [
+        {
+          "icon": "construction",
+          "name": {
+            "tr": "Paletli ekskavatör",
+            "en": "Crawler excavator",
+            "ar": "حفار زاحف"
+          },
+          "description": {
+            "tr": "Kazı, yükleme ve yıkım işleri için farklı tonajlar.",
+            "en": "Several tonnages for digging, loading and demolition.",
+            "ar": "أوزان متعددة لأعمال الحفر والتحميل والهدم."
+          }
+        },
+        {
+          "icon": "agriculture",
+          "name": {
+            "tr": "Lastikli yükleyici",
+            "en": "Wheel loader",
+            "ar": "جرافة بعجلات"
+          },
+          "description": {
+            "tr": "Agrega, hafriyat ve malzeme taşıma.",
+            "en": "Aggregate, earthmoving and material handling.",
+            "ar": "نقل الركام والحفريات والمواد."
+          }
+        },
+        {
+          "icon": "precision_manufacturing",
+          "name": {
+            "tr": "Mobil vinç",
+            "en": "Mobile crane",
+            "ar": "رافعة متنقلة"
+          },
+          "description": {
+            "tr": "Şantiye ve montaj işleri için hareketli vinç; operatörlü.",
+            "en": "A mobile crane for site and erection work; with operator.",
+            "ar": "رافعة متحركة لأعمال المواقع والتركيب؛ مع مشغّل."
+          }
+        },
+        {
+          "icon": "apartment",
+          "name": {
+            "tr": "Kule vinç",
+            "en": "Tower crane",
+            "ar": "رافعة برجية"
+          },
+          "description": {
+            "tr": "Yüksek yapılar için kurulum, işletme ve söküm.",
+            "en": "Installation, operation and dismantling for tall structures.",
+            "ar": "تركيب وتشغيل وفك للمباني العالية."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "7qcbl0",
+      "path": "values-1",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "Kurumsal Değerler 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "badgebg": "#2E6BFF",
+        "badgecolor": "#ffffff",
+        "badge": {
+          "tr": "Makine parkı",
+          "en": "Machine fleet",
+          "ar": "أسطول الآليات"
+        },
+        "title": {
+          "tr": "Kiralık makineler",
+          "en": "Machines for hire",
+          "ar": "آليات للتأجير"
+        },
+        "description": {
+          "tr": "Kaldırma ekipmanları periyodik kontrolden geçer; kontrol raporları ve operatör mesleki yeterlilik belgeleri (DEMO) güncel tutulur.",
+          "en": "Lifting equipment goes through periodic inspection; inspection reports and operator vocational qualification certificates (DEMO) are kept current.",
+          "ar": "تخضع معدات الرفع لفحص دوري؛ وتُحدَّث تقارير الفحص وشهادات الكفاءة المهنية للمشغلين (DEMO) باستمرار."
+        }
+      },
+      "data": [
+        {
+          "icon": "construction",
+          "name": {
+            "tr": "Paletli ekskavatör",
+            "en": "Crawler excavator",
+            "ar": "حفار زاحف"
+          },
+          "description": {
+            "tr": "Kazı, yükleme ve yıkım işleri için farklı tonajlar.",
+            "en": "Several tonnages for digging, loading and demolition.",
+            "ar": "أوزان متعددة لأعمال الحفر والتحميل والهدم."
+          }
+        },
+        {
+          "icon": "agriculture",
+          "name": {
+            "tr": "Lastikli yükleyici",
+            "en": "Wheel loader",
+            "ar": "جرافة بعجلات"
+          },
+          "description": {
+            "tr": "Agrega, hafriyat ve malzeme taşıma.",
+            "en": "Aggregate, earthmoving and material handling.",
+            "ar": "نقل الركام والحفريات والمواد."
+          }
+        },
+        {
+          "icon": "precision_manufacturing",
+          "name": {
+            "tr": "Mobil vinç",
+            "en": "Mobile crane",
+            "ar": "رافعة متنقلة"
+          },
+          "description": {
+            "tr": "Şantiye ve montaj işleri için hareketli vinç; operatörlü.",
+            "en": "A mobile crane for site and erection work; with operator.",
+            "ar": "رافعة متحركة لأعمال المواقع والتركيب؛ مع مشغّل."
+          }
+        },
+        {
+          "icon": "apartment",
+          "name": {
+            "tr": "Kule vinç",
+            "en": "Tower crane",
+            "ar": "رافعة برجية"
+          },
+          "description": {
+            "tr": "Yüksek yapılar için kurulum, işletme ve söküm.",
+            "en": "Installation, operation and dismantling for tall structures.",
+            "ar": "تركيب وتشغيل وفك للمباني العالية."
+          }
+        },
+        {
+          "icon": "local_shipping",
+          "name": {
+            "tr": "Damperli kamyon",
+            "en": "Tipper truck",
+            "ar": "شاحنة قلاب"
+          },
+          "description": {
+            "tr": "Hafriyat ve dolgu malzemesi nakliyesi.",
+            "en": "Transport of spoil and fill material.",
+            "ar": "نقل ناتج الحفر ومواد الردم."
+          }
+        },
+        {
+          "icon": "engineering",
+          "name": {
+            "tr": "Operatör hizmeti",
+            "en": "Operator service",
+            "ar": "خدمة المشغل"
+          },
+          "description": {
+            "tr": "Mesleki yeterlilik belgeli deneyimli operatörler.",
+            "en": "Experienced operators with vocational qualification certificates.",
+            "ar": "مشغلون ذوو خبرة بشهادات كفاءة مهنية."
+          }
+        }
+      ],
+      "category": "values",
+      "description": "Kurumsal değer kartları (MLA tarzı dört sütun). Rakam yok; ikon, başlık ve kısa açıklama. Animasyon, mobil tek sütun ve prefers-reduced-motion destekler.",
+      "version": "1.0.0",
+      "icon": "diamond",
+      "id": "tu9x42",
+      "path": "values-1",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": "Sekmeli Hizmetler",
+      "description": "Hizmet anlatımı sekmelerle: sol/üst sekme listesi (ikon + ad), seçili hizmetin görseli + açıklama + madde listesi + CTA. Mobilde akordeon. ARIA tabs kalıbı (ok tuşları, Home/End, RTL'de yön ters). desing.stil: dikey | yatay-ust | kart-gecis. Veri: data[] = [{ikon, ad{tr,en,ar}, ozet{}, maddeler[{}], img, alt{}, url}]. Renkler yalnız token (var(--mx-site-*)); koyu mod otomatik. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "view_sidebar",
+      "category": "hizmet",
+      "tags": [
+        "hizmet",
+        "sekme",
+        "tabs",
+        "akordeon",
+        "services",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kart-gecis",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Makine parkı",
+          "en": "Machine fleet",
+          "ar": "أسطول الآليات"
+        },
+        "title": {
+          "tr": "Kiralık makineler",
+          "en": "Machines for hire",
+          "ar": "آليات للتأجير"
+        },
+        "description": {
+          "tr": "Kaldırma ekipmanları periyodik kontrolden geçer; kontrol raporları ve operatör mesleki yeterlilik belgeleri (DEMO) güncel tutulur.",
+          "en": "Lifting equipment goes through periodic inspection; inspection reports and operator vocational qualification certificates (DEMO) are kept current.",
+          "ar": "تخضع معدات الرفع لفحص دوري؛ وتُحدَّث تقارير الفحص وشهادات الكفاءة المهنية للمشغلين (DEMO) باستمرار."
+        },
+        "ctaLabel": {
+          "tr": "Detaylı bilgi",
+          "en": "Learn more",
+          "ar": "مزيد من التفاصيل"
+        },
+        "tabsLabel": {
+          "tr": "Hizmet sekmeleri",
+          "en": "Service tabs",
+          "ar": "تبويبات الخدمات"
+        },
+        "featuresLabel": {
+          "tr": "Neler dahil?",
+          "en": "What's included?",
+          "ar": "ماذا يشمل؟"
+        }
+      },
+      "data": [
+        {
+          "ikon": "construction",
+          "ad": {
+            "tr": "Paletli ekskavatör",
+            "en": "Crawler excavator",
+            "ar": "حفار زاحف"
+          },
+          "ozet": {
+            "tr": "Kazı, yükleme ve yıkım işleri için farklı tonajlar.",
+            "en": "Several tonnages for digging, loading and demolition.",
+            "ar": "أوزان متعددة لأعمال الحفر والتحميل والهدم."
+          },
+          "maddeler": [
+            {
+              "tr": "Periyodik kontrol raporu güncel (DEMO)",
+              "en": "Periodic inspection report current (DEMO)",
+              "ar": "تقرير الفحص الدوري ساري (DEMO)"
+            },
+            {
+              "tr": "Operatör mesleki yeterlilik belgesi",
+              "en": "Operator vocational qualification certificate",
+              "ar": "شهادة الكفاءة المهنية للمشغل"
+            },
+            {
+              "tr": "Nakliye ve yakıt teklifte ayrı kalem",
+              "en": "Transport and fuel itemised in the quote",
+              "ar": "النقل والوقود بنود منفصلة في العرض"
+            }
+          ],
+          "img": "ismakinesi-ekskavator.webp",
+          "alt": {
+            "tr": "Sarı paletli ekskavatör",
+            "en": "A yellow crawler excavator",
+            "ar": "حفار زاحف أصفر"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "ikon": "agriculture",
+          "ad": {
+            "tr": "Lastikli yükleyici",
+            "en": "Wheel loader",
+            "ar": "جرافة بعجلات"
+          },
+          "ozet": {
+            "tr": "Agrega, hafriyat ve malzeme taşıma.",
+            "en": "Aggregate, earthmoving and material handling.",
+            "ar": "نقل الركام والحفريات والمواد."
+          },
+          "maddeler": [
+            {
+              "tr": "Periyodik kontrol raporu güncel (DEMO)",
+              "en": "Periodic inspection report current (DEMO)",
+              "ar": "تقرير الفحص الدوري ساري (DEMO)"
+            },
+            {
+              "tr": "Operatör mesleki yeterlilik belgesi",
+              "en": "Operator vocational qualification certificate",
+              "ar": "شهادة الكفاءة المهنية للمشغل"
+            },
+            {
+              "tr": "Nakliye ve yakıt teklifte ayrı kalem",
+              "en": "Transport and fuel itemised in the quote",
+              "ar": "النقل والوقود بنود منفصلة في العرض"
+            }
+          ],
+          "img": "ismakinesi-yukleyici.webp",
+          "alt": {
+            "tr": "Lastikli yükleyici",
+            "en": "A wheel loader",
+            "ar": "جرافة بعجلات"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "ikon": "precision_manufacturing",
+          "ad": {
+            "tr": "Mobil vinç",
+            "en": "Mobile crane",
+            "ar": "رافعة متنقلة"
+          },
+          "ozet": {
+            "tr": "Şantiye ve montaj işleri için hareketli vinç; operatörlü.",
+            "en": "A mobile crane for site and erection work; with operator.",
+            "ar": "رافعة متحركة لأعمال المواقع والتركيب؛ مع مشغّل."
+          },
+          "maddeler": [
+            {
+              "tr": "Periyodik kontrol raporu güncel (DEMO)",
+              "en": "Periodic inspection report current (DEMO)",
+              "ar": "تقرير الفحص الدوري ساري (DEMO)"
+            },
+            {
+              "tr": "Operatör mesleki yeterlilik belgesi",
+              "en": "Operator vocational qualification certificate",
+              "ar": "شهادة الكفاءة المهنية للمشغل"
+            },
+            {
+              "tr": "Nakliye ve yakıt teklifte ayrı kalem",
+              "en": "Transport and fuel itemised in the quote",
+              "ar": "النقل والوقود بنود منفصلة في العرض"
+            }
+          ],
+          "img": "ismakinesi-vinc.webp",
+          "alt": {
+            "tr": "Kolu açık mobil vinç",
+            "en": "A mobile crane with its boom extended",
+            "ar": "رافعة متنقلة بذراع ممدودة"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "ikon": "apartment",
+          "ad": {
+            "tr": "Kule vinç",
+            "en": "Tower crane",
+            "ar": "رافعة برجية"
+          },
+          "ozet": {
+            "tr": "Yüksek yapılar için kurulum, işletme ve söküm.",
+            "en": "Installation, operation and dismantling for tall structures.",
+            "ar": "تركيب وتشغيل وفك للمباني العالية."
+          },
+          "maddeler": [
+            {
+              "tr": "Periyodik kontrol raporu güncel (DEMO)",
+              "en": "Periodic inspection report current (DEMO)",
+              "ar": "تقرير الفحص الدوري ساري (DEMO)"
+            },
+            {
+              "tr": "Operatör mesleki yeterlilik belgesi",
+              "en": "Operator vocational qualification certificate",
+              "ar": "شهادة الكفاءة المهنية للمشغل"
+            },
+            {
+              "tr": "Nakliye ve yakıt teklifte ayrı kalem",
+              "en": "Transport and fuel itemised in the quote",
+              "ar": "النقل والوقود بنود منفصلة في العرض"
+            }
+          ],
+          "img": "ismakinesi-kule-vinc.webp",
+          "alt": {
+            "tr": "Yapı yanında kule vinç",
+            "en": "A tower crane beside a building",
+            "ar": "رافعة برجية بجانب مبنى"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "ikon": "local_shipping",
+          "ad": {
+            "tr": "Damperli kamyon",
+            "en": "Tipper truck",
+            "ar": "شاحنة قلاب"
+          },
+          "ozet": {
+            "tr": "Hafriyat ve dolgu malzemesi nakliyesi.",
+            "en": "Transport of spoil and fill material.",
+            "ar": "نقل ناتج الحفر ومواد الردم."
+          },
+          "maddeler": [
+            {
+              "tr": "Periyodik kontrol raporu güncel (DEMO)",
+              "en": "Periodic inspection report current (DEMO)",
+              "ar": "تقرير الفحص الدوري ساري (DEMO)"
+            },
+            {
+              "tr": "Operatör mesleki yeterlilik belgesi",
+              "en": "Operator vocational qualification certificate",
+              "ar": "شهادة الكفاءة المهنية للمشغل"
+            },
+            {
+              "tr": "Nakliye ve yakıt teklifte ayrı kalem",
+              "en": "Transport and fuel itemised in the quote",
+              "ar": "النقل والوقود بنود منفصلة في العرض"
+            }
+          ],
+          "img": "ismakinesi-kamyon.webp",
+          "alt": {
+            "tr": "Şantiyede damperli kamyon",
+            "en": "A tipper truck on site",
+            "ar": "شاحنة قلاب في الموقع"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "ikon": "engineering",
+          "ad": {
+            "tr": "Operatör hizmeti",
+            "en": "Operator service",
+            "ar": "خدمة المشغل"
+          },
+          "ozet": {
+            "tr": "Mesleki yeterlilik belgeli deneyimli operatörler.",
+            "en": "Experienced operators with vocational qualification certificates.",
+            "ar": "مشغلون ذوو خبرة بشهادات كفاءة مهنية."
+          },
+          "maddeler": [
+            {
+              "tr": "Periyodik kontrol raporu güncel (DEMO)",
+              "en": "Periodic inspection report current (DEMO)",
+              "ar": "تقرير الفحص الدوري ساري (DEMO)"
+            },
+            {
+              "tr": "Operatör mesleki yeterlilik belgesi",
+              "en": "Operator vocational qualification certificate",
+              "ar": "شهادة الكفاءة المهنية للمشغل"
+            },
+            {
+              "tr": "Nakliye ve yakıt teklifte ayrı kalem",
+              "en": "Transport and fuel itemised in the quote",
+              "ar": "النقل والوقود بنود منفصلة في العرض"
+            }
+          ],
+          "img": "ismakinesi-hero-santiye.webp",
+          "alt": {
+            "tr": "Çalışan ekskavatör ve vinç (temsilidir)",
+            "en": "A working excavator and crane (illustrative)",
+            "ar": "حفار ورافعة تعملان (توضيحي)"
+          },
+          "url": "makine-parki"
+        }
+      ],
+      "id": "g30bk0",
+      "path": "hizmet-sekmeli",
+      "local": "body",
+      "index": 17
+    },
+    {
+      "name": "Zigzag Özellik",
+      "description": "Görsel-metin sırası satır satır değişen (sol/sağ) özellik anlatımı: numara rozeti, h3, paragraf, mini CTA; görsel kenarında dekoratif çerçeve/gölge. Kaydırmada satırlar sırayla belirir (IntersectionObserver; reduced-motion ya da JS yoksa hep görünür). desing.stil: cerceve | yuzen | sade. RTL'de sıra kendiliğinden aynalanır. Veri: data[] = [{baslik{tr,en,ar}, metin{}, img, alt{}, url, ctaLabel{}?}]. Renkler yalnız token; koyu mod otomatik.",
+      "version": "1.0.0",
+      "icon": "view_agenda",
+      "category": "ozellik",
+      "tags": [
+        "özellik",
+        "zigzag",
+        "features",
+        "görsel-metin",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yuzen",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "20px",
+        "numara": true,
+        "eyebrow": {
+          "tr": "Neden biz?",
+          "en": "Why us?",
+          "ar": "لماذا نحن؟"
+        },
+        "title": {
+          "tr": "Güvenliği pazarlıktan önce sayan üç ilke",
+          "en": "Three principles that put safety before bargaining",
+          "ar": "ثلاثة مبادئ تضع السلامة قبل المساومة"
+        },
+        "description": {
+          "tr": "Her kiralamada aynı sıra: kontrol, belge, yazılı teklif.",
+          "en": "The same order in every hire: inspection, certificate, written quote.",
+          "ar": "الترتيب نفسه في كل تأجير: الفحص والشهادة والعرض المكتوب."
+        },
+        "ctaLabel": {
+          "tr": "Daha fazla",
+          "en": "Read more",
+          "ar": "اقرأ المزيد"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Periyodik kontrol",
+            "en": "Periodic inspection",
+            "ar": "الفحص الدوري"
+          },
+          "metin": {
+            "tr": "Kaldırma ekipmanları periyodik kontrolden geçer; raporlar sahaya makineyle gelir.",
+            "en": "Lifting equipment goes through periodic inspection; the reports arrive on site with the machine.",
+            "ar": "تخضع معدات الرفع لفحص دوري؛ وتصل التقارير إلى الموقع مع الآلية."
+          },
+          "img": "ismakinesi-kule-vinc.webp",
+          "alt": {
+            "tr": "Yapı yanında kule vinç",
+            "en": "A tower crane beside a building",
+            "ar": "رافعة برجية بجانب مبنى"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "baslik": {
+            "tr": "Belgeli operatör",
+            "en": "Certified operator",
+            "ar": "مشغّل معتمد"
+          },
+          "metin": {
+            "tr": "Mesleki yeterlilik belgesi güncel operatörler; operatörsüz kiralamada belge istenir.",
+            "en": "Operators with current vocational qualification certificates; dry hire requires a certificate.",
+            "ar": "مشغّلون بشهادات كفاءة مهنية سارية؛ ويُطلب الإثبات عند التأجير بدون مشغّل."
+          },
+          "img": "ismakinesi-ekskavator.webp",
+          "alt": {
+            "tr": "Sarı paletli ekskavatör",
+            "en": "A yellow crawler excavator",
+            "ar": "حفار زاحف أصفر"
+          },
+          "url": "makine-parki"
+        },
+        {
+          "baslik": {
+            "tr": "Yazılı teklif",
+            "en": "Written quote",
+            "ar": "عرض مكتوب"
+          },
+          "metin": {
+            "tr": "Makine, süre, nakliye, yakıt ve sigorta kalemleri tek tek yazılır; sürpriz yok.",
+            "en": "Machine, duration, transport, fuel and insurance are itemised one by one; no surprises.",
+            "ar": "تُكتب بنود الآلية والمدة والنقل والوقود والتأمين واحدًا واحدًا؛ لا مفاجآت."
+          },
+          "img": "ismakinesi-kamyon.webp",
+          "alt": {
+            "tr": "Şantiyede damperli kamyon",
+            "en": "A tipper truck on site",
+            "ar": "شاحنة قلاب في الموقع"
+          },
+          "url": "teklif-al"
+        }
+      ],
+      "id": "drqx7s",
+      "path": "ozellik-zigzag",
+      "local": "body",
+      "index": 18
+    },
+    {
+      "name": "Zaman Çizelgesi 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "titlecolor": "var(--mx-site-text, #1b1b1b)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "badge": {
+          "tr": "Süreç",
+          "en": "Process",
+          "ar": "الإجراءات"
+        },
+        "title": {
+          "tr": "Keşiften sahaya",
+          "en": "From survey to site",
+          "ar": "من المعاينة إلى الموقع"
+        },
+        "description": {
+          "tr": "Dört adımda kiralama.",
+          "en": "Hiring in four steps.",
+          "ar": "التأجير في أربع خطوات."
+        },
+        "accentText": "#ffffff",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)"
+      },
+      "data": [
+        {
+          "year": "01",
+          "title": {
+            "tr": "Talep ve keşif",
+            "en": "Enquiry and survey",
+            "ar": "الاستفسار والمعاينة"
+          },
+          "text": {
+            "tr": "İş tanımı, saha ve erişim koşulları incelenir.",
+            "en": "The job, site and access conditions are reviewed.",
+            "ar": "تُراجَع طبيعة العمل والموقع وظروف الوصول."
+          }
+        },
+        {
+          "year": "02",
+          "title": {
+            "tr": "Teklif",
+            "en": "Quote",
+            "ar": "العرض"
+          },
+          "text": {
+            "tr": "Makine, süre, nakliye ve yakıt kalemleri yazılı verilir.",
+            "en": "Machine, duration, transport and fuel items are given in writing.",
+            "ar": "تُذكر بنود الآلية والمدة والنقل والوقود كتابةً."
+          }
+        },
+        {
+          "year": "03",
+          "title": {
+            "tr": "Sevk ve kurulum",
+            "en": "Dispatch and set-up",
+            "ar": "الإرسال والتجهيز"
+          },
+          "text": {
+            "tr": "Makine sahaya sevk edilir, güvenlik brifingi yapılır.",
+            "en": "The machine is dispatched and a safety briefing is held.",
+            "ar": "تُرسَل الآلية إلى الموقع ويُعقد إيجاز السلامة."
+          }
+        },
+        {
+          "year": "04",
+          "title": {
+            "tr": "Çalışma ve iade",
+            "en": "Operation and return",
+            "ar": "التشغيل والإعادة"
+          },
+          "text": {
+            "tr": "Çalışma saatleri kayıt altına alınır, makine iade edilir.",
+            "en": "Working hours are logged and the machine is returned.",
+            "ar": "تُسجَّل ساعات العمل وتُعاد الآلية."
+          }
+        }
+      ],
+      "category": "timeline",
+      "description": "Zaman çizelgesi modülü. Kurumsal tarihçe, süreç adımları veya yol haritasını dikey çizgi + yıl rozetiyle listeler. Çok dilli başlık/metin ve animasyonlu giriş içerir.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "id": "00o0b6",
+      "path": "timeline-1",
+      "local": "body",
+      "index": 19
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "kartli",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Süreç",
+          "en": "Process",
+          "ar": "الإجراءات"
+        },
+        "title": {
+          "tr": "Keşiften sahaya",
+          "en": "From survey to site",
+          "ar": "من المعاينة إلى الموقع"
+        },
+        "description": {
+          "tr": "Dört adımda kiralama.",
+          "en": "Hiring in four steps.",
+          "ar": "التأجير في أربع خطوات."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Talep ve keşif",
+            "en": "Enquiry and survey",
+            "ar": "الاستفسار والمعاينة"
+          },
+          "metin": {
+            "tr": "İş tanımı, saha ve erişim koşulları incelenir.",
+            "en": "The job, site and access conditions are reviewed.",
+            "ar": "تُراجَع طبيعة العمل والموقع وظروف الوصول."
+          },
+          "ikon": "forum"
+        },
+        {
+          "baslik": {
+            "tr": "Teklif",
+            "en": "Quote",
+            "ar": "العرض"
+          },
+          "metin": {
+            "tr": "Makine, süre, nakliye ve yakıt kalemleri yazılı verilir.",
+            "en": "Machine, duration, transport and fuel items are given in writing.",
+            "ar": "تُذكر بنود الآلية والمدة والنقل والوقود كتابةً."
+          },
+          "ikon": "draw"
+        },
+        {
+          "baslik": {
+            "tr": "Sevk ve kurulum",
+            "en": "Dispatch and set-up",
+            "ar": "الإرسال والتجهيز"
+          },
+          "metin": {
+            "tr": "Makine sahaya sevk edilir, güvenlik brifingi yapılır.",
+            "en": "The machine is dispatched and a safety briefing is held.",
+            "ar": "تُرسَل الآلية إلى الموقع ويُعقد إيجاز السلامة."
+          },
+          "ikon": "construction"
+        },
+        {
+          "baslik": {
+            "tr": "Çalışma ve iade",
+            "en": "Operation and return",
+            "ar": "التشغيل والإعادة"
+          },
+          "metin": {
+            "tr": "Çalışma saatleri kayıt altına alınır, makine iade edilir.",
+            "en": "Working hours are logged and the machine is returned.",
+            "ar": "تُسجَّل ساعات العمل وتُعاد الآلية."
+          },
+          "ikon": "task_alt"
+        }
+      ],
+      "id": "hyunfp",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 20
+    },
+    {
+      "name": "İstatistik Bandı 1",
+      "desing": {
+        "stil": "",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "numbercolor": "#ffffff",
+        "labelcolor": "rgba(255,255,255,.88)",
+        "iconsize": "56px",
+        "iconbox": "88px"
+      },
+      "data": [
+        {
+          "number": 6,
+          "suffix": "",
+          "label": {
+            "tr": "Makine grubu",
+            "en": "Machine groups",
+            "ar": "مجموعات آليات"
+          },
+          "icon": "construction"
+        },
+        {
+          "number": 24,
+          "suffix": "sa",
+          "label": {
+            "tr": "Acil hat",
+            "en": "Emergency line",
+            "ar": "خط الطوارئ"
+          },
+          "icon": "support_agent"
+        },
+        {
+          "number": 4,
+          "suffix": "",
+          "label": {
+            "tr": "Süreç adımı",
+            "en": "Process steps",
+            "ar": "خطوات الإجراء"
+          },
+          "icon": "timeline"
+        },
+        {
+          "number": 1,
+          "suffix": "",
+          "label": {
+            "tr": "Periyodik kontrol / ekipman",
+            "en": "Periodic inspection per unit",
+            "ar": "فحص دوري لكل وحدة"
+          },
+          "icon": "fact_check"
+        }
+      ],
+      "category": "stats",
+      "description": "İstatistik / sayaç bandı modülü. Rakamlar görünür olduğunda 0'dan hedefe animasyonlu sayar (IntersectionObserver + easeOutCubic; prefers-reduced-motion'da animasyonsuz). İkon, sonek (+, /7) ve çok dilli etiket destekler. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient bant, numbercolor/labelcolor, bugünkü görünüm) · \"kartli\" (sayfa zemininde yüzey kartları, üstte primary çizgi, hover'da yükselir) · \"serit-renkli\" (tek renk primary/primary-contrast şeridi, ikon solda rakam+etiket yanında, dikey ayraçlar). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.1.0",
+      "icon": "monitoring",
+      "id": "w3801d",
+      "path": "stats-1",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": "Sayaç Şeridi (Stats 2)",
+      "description": "Tam genişlik renkli şerit (bgcolor/textcolor ÇİFT token), 3–5 sayaç: sayılar görünürken yukarı sayar (IntersectionObserver; reduced-motion ya da JS yoksa son değer doğrudan), önek/sonek (+, %, ₺), kısa açıklama, isteğe bağlı CSS desen (noktalar | cizgiler | yok). Sayı biçimi dile göre (Arapçada Latin hane). desing.stil: serit | kartli | ayrik-cizgili. Veri: data[] = [{deger, onek, sonek, ondalik?, etiket{tr,en,ar}, aciklama{}, ikon?}]. Koyu mod paletten; RTL mantıksal CSS.",
+      "version": "1.0.0",
+      "icon": "insights",
+      "category": "stats",
+      "tags": [
+        "istatistik",
+        "sayaç",
+        "stats",
+        "counter",
+        "şerit",
+        "ar"
+      ],
+      "desing": {
+        "stil": "serit",
+        "desen": "noktalar",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 90%, var(--mx-site-primary, #2563eb))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 26%, transparent)",
+        "radius": "16px",
+        "sure": 1000,
+        "title": {
+          "tr": "Rakamlarla",
+          "en": "By the numbers",
+          "ar": "بالأرقام"
+        },
+        "description": {
+          "tr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      "data": [
+        {
+          "deger": 6,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "Makine grubu",
+            "en": "Machine groups",
+            "ar": "مجموعات آليات"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "construction"
+        },
+        {
+          "deger": 24,
+          "onek": "",
+          "sonek": "sa",
+          "etiket": {
+            "tr": "Acil hat",
+            "en": "Emergency line",
+            "ar": "خط الطوارئ"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "support_agent"
+        },
+        {
+          "deger": 4,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "Süreç adımı",
+            "en": "Process steps",
+            "ar": "خطوات الإجراء"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "timeline"
+        },
+        {
+          "deger": 1,
+          "onek": "",
+          "sonek": "",
+          "etiket": {
+            "tr": "Periyodik kontrol / ekipman",
+            "en": "Periodic inspection per unit",
+            "ar": "فحص دوري لكل وحدة"
+          },
+          "aciklama": {
+            "tr": "",
+            "en": "",
+            "ar": ""
+          },
+          "ikon": "fact_check"
+        }
+      ],
+      "id": "lc3wch",
+      "path": "stats-2",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "CTA Şerit 1",
+      "desing": {
+        "stil": "gradient",
+        "max": "1200px",
+        "gradient": "linear-gradient(135deg, color-mix(in srgb, var(--mx-site-primary, #2563eb) 42%, #000), color-mix(in srgb, var(--mx-site-primary, #2563eb) 24%, #000))",
+        "btnbg": "#ffffff",
+        "btncolor": "#10203A",
+        "title": {
+          "tr": "Sahanız için makine teklifi alın",
+          "en": "Get a machine quote for your site",
+          "ar": "احصل على عرض آلية لموقعك"
+        },
+        "description": {
+          "tr": "Kaldırma ekipmanları periyodik kontrolden geçer; kontrol raporları ve operatör mesleki yeterlilik belgeleri (DEMO) güncel tutulur.",
+          "en": "Lifting equipment goes through periodic inspection; inspection reports and operator vocational qualification certificates (DEMO) are kept current.",
+          "ar": "تخضع معدات الرفع لفحص دوري؛ وتُحدَّث تقارير الفحص وشهادات الكفاءة المهنية للمشغلين (DEMO) باستمرار."
+        },
+        "btn1Text": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "btn1Url": "teklif-al",
+        "btn2Text": {
+          "tr": "Kiralama koşulları",
+          "en": "Rental terms",
+          "ar": "شروط التأجير"
+        },
+        "btn2Url": "kiralama-kosullari"
+      },
+      "category": "cta",
+      "description": "Harekete geçirici çağrı (CTA) şerit modülü. Gradient arka plan üzerinde başlık, açıklama ve iki buton gösterir. Buton URL'leri dil öneki olmadan pathnext (iletisim, urunler) — site routing ekler. Çok dilli metin ve animasyonlu giriş içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (gradient anahtarı tam genişlik bant, bugünkü görünüm) · \"gradient\" (token gradient primary→koyu, yuvarlak köşeli iç bant, ortalı yığın, ışık daireleri, hap düğmeler) · \"kart-yuzen\" (sayfa zemininde yüzen yüzey kartı, dekoratif primary daireler, sol vurgu çizgisi). Varyant renkleri yalnız var(--mx-site-*) token çiftleri.",
+      "version": "1.2.0",
+      "icon": "campaign",
+      "id": "0ip8dd",
+      "path": "cta-1",
+      "local": "body",
+      "data": [],
+      "index": 23
+    },
+    {
+      "name": "Bant CTA (zengin) — CTA 3",
+      "description": "Tam genişlik iki sütunlu çağrı bandı: sol h2 + metin + 2 buton; sağ görsel/illüstrasyon ya da telefon-WhatsApp kartı (numara, saat). Arka plan: token zemin + hafif gradient katmanı + dekoratif daireler (CSS). desing.stil: gradient | gorselli (sağ sütun tam yükseklik görsel) | cerceveli-kart (içerik sayfa zemini üstünde yüzen kart). desing.sag: whatsapp | gorsel | yok. Zemin + yazı ÇİFT token (bgcolor = birincil, textcolor = birincil kontrast); WhatsApp kartı opak yüzey (cardbg/cardtext). Üç dil + RTL; koyu mod paletten.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "cta",
+      "tags": [
+        "cta",
+        "çağrı",
+        "whatsapp",
+        "bant",
+        "banner",
+        "ar"
+      ],
+      "desing": {
+        "stil": "gradient",
+        "sag": "whatsapp",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 90%, var(--mx-site-primary, #2563eb))",
+        "pagebg": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "cardtext": "var(--mx-site-text, #1b1b1b)",
+        "cardmuted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-surface, #ffffff))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "radius": "24px",
+        "title": {
+          "tr": "Sahanız için makine teklifi alın",
+          "en": "Get a machine quote for your site",
+          "ar": "احصل على عرض آلية لموقعك"
+        },
+        "text": {
+          "tr": "Kaldırma ekipmanları periyodik kontrolden geçer; kontrol raporları ve operatör mesleki yeterlilik belgeleri (DEMO) güncel tutulur.",
+          "en": "Lifting equipment goes through periodic inspection; inspection reports and operator vocational qualification certificates (DEMO) are kept current.",
+          "ar": "تخضع معدات الرفع لفحص دوري؛ وتُحدَّث تقارير الفحص وشهادات الكفاءة المهنية للمشغلين (DEMO) باستمرار."
+        },
+        "btn1Label": {
+          "tr": "Teklif al",
+          "en": "Get a quote",
+          "ar": "اطلب عرض سعر"
+        },
+        "btn1Url": "teklif-al",
+        "btn2Label": {
+          "tr": "Kiralama koşulları",
+          "en": "Rental terms",
+          "ar": "شروط التأجير"
+        },
+        "btn2Url": "kiralama-kosullari",
+        "number": "903420000000",
+        "numberText": "+90 342 000 00 00",
+        "waLabel": {
+          "tr": "WhatsApp'tan yazın",
+          "en": "Message us on WhatsApp",
+          "ar": "راسلنا عبر واتساب"
+        },
+        "waTitle": {
+          "tr": "Hemen ulaşın",
+          "en": "Reach us now",
+          "ar": "تواصل معنا الآن"
+        },
+        "hours": {
+          "tr": "Hafta içi 07:30 – 18:30 · Acil müdahale hattı 7/24",
+          "en": "Weekdays 07:30 – 18:30 · 24/7 emergency line",
+          "ar": "أيام الأسبوع 07:30 – 18:30 · خط طوارئ على مدار الساعة"
+        },
+        "hoursLabel": {
+          "tr": "Çalışma saatleri",
+          "en": "Opening hours",
+          "ar": "ساعات العمل"
+        },
+        "waMessage": {
+          "tr": "Merhaba, demo siteniz üzerinden ulaşıyorum.",
+          "en": "Hello, I am reaching out via your demo site.",
+          "ar": "مرحبًا، أتواصل معكم عبر موقعكم التجريبي."
+        },
+        "img": "ismakinesi-vinc.webp",
+        "alt": {
+          "tr": "Kolu açık mobil vinç",
+          "en": "A mobile crane with its boom extended",
+          "ar": "رافعة متنقلة بذراع ممدودة"
+        }
+      },
+      "data": [],
+      "id": "bqke9r",
+      "path": "cta-3",
+      "local": "body",
+      "index": 24
+    },
+    {
+      "name": "Tanıtım Modülü",
+      "local": "body",
+      "desing": {
+        "stil": "yuzen-gorsel",
+        "name": {
+          "tr": "Kızıl Vinç",
+          "en": "Kizil Vinc Machinery",
+          "ar": "قزل فينتش للآليات"
+        },
+        "description": {
+          "tr": "Kızıl Vinç, ağır kaldırma işlerinde güvenliği ve belgeyi pazarlıktan önce sayan kurgusal bir demo firmadır. Bu sitedeki makine, belge ve adres bilgileri kurgusaldır.",
+          "en": "Kizil Vinc is a fictional demo company that puts safety and documentation before bargaining in heavy lifting work. Machines, documents and addresses on this site are fictional.",
+          "ar": "قزل فينتش شركة تجريبية افتراضية تضع السلامة والتوثيق قبل المساومة في أعمال الرفع الثقيل. الآليات والوثائق والعناوين في هذا الموقع افتراضية."
+        },
+        "name2": {
+          "tr": "Kontrollü ekipman",
+          "en": "Inspected equipment",
+          "ar": "معدات مفحوصة"
+        },
+        "spot2": {
+          "tr": "Kaldırma ekipmanlarının periyodik kontrolü kayıtlıdır.",
+          "en": "Periodic inspections of lifting equipment are recorded.",
+          "ar": "الفحص الدوري لمعدات الرفع مسجّل."
+        },
+        "icon2": "fact_check",
+        "name3": {
+          "tr": "Belgeli operatör",
+          "en": "Certified operators",
+          "ar": "مشغلون معتمدون"
+        },
+        "spot3": {
+          "tr": "Operatörlerin yeterlilik belgeleri güncel tutulur.",
+          "en": "Operators’ qualification certificates are kept current.",
+          "ar": "تُحدَّث شهادات كفاءة المشغلين."
+        },
+        "icon3": "badge",
+        "img": "ismakinesi-vinc.webp",
+        "bgcolor": "var(--mx-site-surface-2, #ececea)",
+        "fontcolor": "var(--mx-site-text, #1b1b1b)",
+        "margintop": "20",
+        "marginbotton": "20",
+        "title": {
+          "tr": "Hakkımızda",
+          "en": "About us",
+          "ar": "من نحن"
+        }
+      },
+      "category": "module",
+      "description": "Kurumsal tanıtım ve hakkımızda modülü. Firma tanıtımı, vizyon, misyon metinlerini görsel ile birlikte sunar. Ana sayfa şeridi ve temalar için varsayılan cok dilli metinler. İki kolonlu responsive tasarım, W2 animasyon ve icon desteği içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (beyaz çerçeveli yuvarlak görsel, bugünkü görünüm) · \"yuzen-gorsel\" (dik kart görsel bandın dışına taşar, gölgeli, hafif eğik) · \"cerceve-ofset\" (kare görsel, arkasında kaymış primary renk çerçeve) · \"ikon-liste\" (yatay görsel + vizyon/misyon ikonlu madde listesi; ikon icon2/icon3). Bant zemini/yazısı bgcolor/fontcolor çifti kalır; eklenen renkler yalnız var(--mx-site-*) token.",
+      "version": "1.2.0",
+      "icon": "business",
+      "id": "s6xtx2",
+      "path": "module-1",
+      "data": [],
+      "index": 25
+    },
+    {
+      "name": "Galeri Masonry (Filtre + Lightbox)",
+      "description": "Masonry (sütun) ya da sabit oranlı ızgara galeri: kategori çipleriyle filtre (?cat= URL durumu, aria-pressed), lightbox (klavye, filtrelenmişte yalnız görünenler gezilir), lazy yükleme (width/height ile CLS yok), görselsiz öğede nötr yer tutucu. gap:0 ile kenarsız ızgara, hover başlık. Öğeler data[] içinde {img, thumb?, title{tr,en,ar}, cat, w, h, alt{tr,en,ar}}; kategoriler desing.cats[]. Üç dil + RTL.",
+      "version": "1.0.0",
+      "icon": "photo_library",
+      "category": "galeri",
+      "tags": [
+        "galeri",
+        "masonry",
+        "filtre",
+        "lightbox",
+        "portfolyo",
+        "gallery",
+        "ar"
+      ],
+      "desing": {
+        "max": "1280px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "gap": "12px",
+        "radius": "4px",
+        "columns": {
+          "d": 3,
+          "t": 3,
+          "m": 2
+        },
+        "ratio": "auto",
+        "captions": "hover",
+        "filter": true,
+        "lightbox": true,
+        "lazy": true,
+        "urlPrefix": "",
+        "title": {
+          "tr": "Sahadan kareler",
+          "en": "From the field",
+          "ar": "لقطات من الميدان"
+        },
+        "description": {
+          "tr": "Makine parkı ve şantiye görüntüleri; temsilidir.",
+          "en": "Fleet and site images; illustrative.",
+          "ar": "صور الأسطول والمواقع؛ توضيحية."
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre filtrele",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "countText": {
+          "zero": {
+            "ar": "لا توجد صور"
+          },
+          "one": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photo",
+            "ar": "صورة واحدة"
+          },
+          "two": {
+            "ar": "صورتان"
+          },
+          "few": {
+            "ar": "{n} صور"
+          },
+          "many": {
+            "ar": "{n} صورة"
+          },
+          "other": {
+            "tr": "{n} fotoğraf",
+            "en": "{n} photos",
+            "ar": "{n} صورة"
+          }
+        },
+        "emptyText": {
+          "tr": "Henüz gösterilecek görsel yok.",
+          "en": "There are no images to show yet.",
+          "ar": "لا توجد صور لعرضها بعد."
+        },
+        "lightboxLabels": {
+          "dialog": {
+            "tr": "Görsel görüntüleyici",
+            "en": "Image viewer",
+            "ar": "عارض الصور"
+          },
+          "close": {
+            "tr": "Kapat",
+            "en": "Close",
+            "ar": "إغلاق"
+          },
+          "prev": {
+            "tr": "Önceki görsel",
+            "en": "Previous image",
+            "ar": "الصورة السابقة"
+          },
+          "next": {
+            "tr": "Sonraki görsel",
+            "en": "Next image",
+            "ar": "الصورة التالية"
+          },
+          "counter": {
+            "tr": "{i} / {n}",
+            "en": "{i} / {n}",
+            "ar": "{i} من {n}"
+          }
+        },
+        "cats": [
+          {
+            "id": "makine",
+            "name": {
+              "tr": "Makineler",
+              "en": "Machines",
+              "ar": "الآليات"
+            }
+          },
+          {
+            "id": "saha",
+            "name": {
+              "tr": "Saha",
+              "en": "Site",
+              "ar": "الموقع"
+            }
+          }
+        ]
+      },
+      "data": [
+        {
+          "img": "ismakinesi-hero-santiye.webp",
+          "cat": "saha",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Şantiye",
+            "en": "Construction site",
+            "ar": "موقع إنشاء"
+          },
+          "alt": {
+            "tr": "Çalışan ekskavatör ve vinç (temsilidir)",
+            "en": "A working excavator and crane (illustrative)",
+            "ar": "حفار ورافعة تعملان (توضيحي)"
+          }
+        },
+        {
+          "img": "ismakinesi-ekskavator.webp",
+          "cat": "makine",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Ekskavatör",
+            "en": "Excavator",
+            "ar": "حفار"
+          },
+          "alt": {
+            "tr": "Sarı paletli ekskavatör",
+            "en": "A yellow crawler excavator",
+            "ar": "حفار زاحف أصفر"
+          }
+        },
+        {
+          "img": "ismakinesi-yukleyici.webp",
+          "cat": "makine",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Yükleyici",
+            "en": "Loader",
+            "ar": "جرافة"
+          },
+          "alt": {
+            "tr": "Lastikli yükleyici",
+            "en": "A wheel loader",
+            "ar": "جرافة بعجلات"
+          }
+        },
+        {
+          "img": "ismakinesi-vinc.webp",
+          "cat": "makine",
+          "w": 600,
+          "h": 800,
+          "title": {
+            "tr": "Mobil vinç",
+            "en": "Mobile crane",
+            "ar": "رافعة متنقلة"
+          },
+          "alt": {
+            "tr": "Kolu açık mobil vinç",
+            "en": "A mobile crane with its boom extended",
+            "ar": "رافعة متنقلة بذراع ممدودة"
+          }
+        },
+        {
+          "img": "ismakinesi-kule-vinc.webp",
+          "cat": "makine",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Kule vinç",
+            "en": "Tower crane",
+            "ar": "رافعة برجية"
+          },
+          "alt": {
+            "tr": "Yapı yanında kule vinç",
+            "en": "A tower crane beside a building",
+            "ar": "رافعة برجية بجانب مبنى"
+          }
+        },
+        {
+          "img": "ismakinesi-kamyon.webp",
+          "cat": "saha",
+          "w": 800,
+          "h": 600,
+          "title": {
+            "tr": "Damperli kamyon",
+            "en": "Tipper truck",
+            "ar": "شاحنة قلاب"
+          },
+          "alt": {
+            "tr": "Şantiyede damperli kamyon",
+            "en": "A tipper truck on site",
+            "ar": "شاحنة قلاب في الموقع"
+          }
+        }
+      ],
+      "id": "hitm5z",
+      "path": "galeri-masonry",
+      "local": "body",
+      "index": 26
+    },
+    {
+      "name": "Randevu / Rezervasyon Formu",
+      "description": "Statik randevu ve rezervasyon sihirbazı (30 Eki 2026): hizmet → uzman → tarih → saat → bilgi → onay; masa kipi (kişi sayısı + bölüm) ve gösterim kipi. Sunucusuz: gönderim WhatsApp hazır mesaj, mailto veya .ics dosyası. Kendi takvimi (Pazartesi/Cumartesi hafta başı, kapalı günler, mola, bekleme günü), üç dil (tr/en/ar, RTL), KVKK onayı, demo kipinde tarayıcıda 'randevularım' listesi.",
+      "version": "1.0.0",
+      "icon": "event_available",
+      "category": "randevu",
+      "tags": [
+        "randevu",
+        "rezervasyon",
+        "takvim",
+        "form",
+        "whatsapp",
+        "ics"
+      ],
+      "desing": {
+        "max": "960px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
+        "muted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #fff))",
+        "errcolor": "color-mix(in srgb, #c81e1e 72%, var(--mx-site-text, #1b1b1b))",
+        "mode": "randevu",
+        "submit": "whatsapp",
+        "demo": true,
+        "weekStart": "auto",
+        "leadDays": 1,
+        "maxDays": 45,
+        "maxPartySize": 8,
+        "masaDuration": 90,
+        "requireEmail": false,
+        "phone": "+90 342 000 00 00",
+        "email": "saha@kizilvinc.example",
+        "location": {
+          "tr": "Sanayi Bölgesi 2. Cd. No: 40, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "40 2nd Street, Industrial Zone, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "المنطقة الصناعية، الشارع الثاني رقم 40، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "badge": {
+          "tr": "Keşif",
+          "en": "Survey",
+          "ar": "المعاينة"
+        },
+        "title": {
+          "tr": "Saha keşfi planlayın",
+          "en": "Plan a site survey",
+          "ar": "خطط لمعاينة الموقع"
+        },
+        "description": {
+          "tr": "Makine grubunu ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur.",
+          "en": "Choose a machine group and a convenient day; on this demo site your request is created only in your browser.",
+          "ar": "اختر مجموعة الآلية واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط."
+        },
+        "noscript": {
+          "tr": "Randevu formunu kullanmak için tarayıcınızda JavaScript açık olmalıdır. Bunun yerine bizi arayabilirsiniz.",
+          "en": "JavaScript must be enabled in your browser to use the booking form. You can call us instead.",
+          "ar": "يجب تفعيل JavaScript في المتصفح لاستخدام نموذج الحجز. يمكنك الاتصال بنا بدلًا من ذلك."
+        },
+        "services": [
+          {
+            "id": "s1",
+            "name": {
+              "tr": "Ekskavatör / yükleyici",
+              "en": "Excavator / loader",
+              "ar": "حفار / جرافة"
+            },
+            "duration": 45
+          },
+          {
+            "id": "s2",
+            "name": {
+              "tr": "Mobil vinç",
+              "en": "Mobile crane",
+              "ar": "رافعة متنقلة"
+            },
+            "duration": 60
+          },
+          {
+            "id": "s3",
+            "name": {
+              "tr": "Kule vinç",
+              "en": "Tower crane",
+              "ar": "رافعة برجية"
+            },
+            "duration": 60
+          }
+        ],
+        "staff": [
+          {
+            "id": "p1",
+            "name": {
+              "tr": "Elif Yıldız",
+              "en": "Elif Yildiz",
+              "ar": "إليف يلدز"
+            },
+            "role": {
+              "tr": "Kıdemli danışman",
+              "en": "Senior advisor",
+              "ar": "مستشارة أولى"
+            },
+            "services": [
+              "s1",
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "id": "p2",
+            "name": {
+              "tr": "Murat Kaya",
+              "en": "Murat Kaya",
+              "ar": "مراد قايا"
+            },
+            "role": {
+              "tr": "Danışman",
+              "en": "Advisor",
+              "ar": "مستشار"
+            },
+            "services": [
+              "s1",
+              "s2"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "id": "ic",
+            "name": {
+              "tr": "İç salon",
+              "en": "Indoor",
+              "ar": "الصالة الداخلية"
+            }
+          },
+          {
+            "id": "bahce",
+            "name": {
+              "tr": "Bahçe",
+              "en": "Garden",
+              "ar": "الحديقة"
+            }
+          }
+        ],
+        "hours": {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "08:00",
+          "end": "17:00",
+          "slot": 60,
+          "breaks": []
+        },
+        "closed": [
+          "2026-12-31",
+          "2027-01-01"
+        ],
+        "kvkk": {
+          "text": {
+            "tr": "Kişisel verilerimin bu talebin oluşturulması amacıyla işlenmesine ilişkin aydınlatma metnini okudum, anladım.",
+            "en": "I have read and understood the privacy notice on how my personal data is processed to create this request.",
+            "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية لإنشاء هذا الطلب وفهمته."
+          },
+          "href": "kisiselveriler"
+        },
+        "successText": {
+          "tr": "Talebiniz alındı. Keşif günü ekip takvimine göre teyit edilecektir.",
+          "en": "Your request has been received. The survey day will be confirmed according to the team calendar.",
+          "ar": "تم استلام طلبك، وسيُؤكَّد يوم المعاينة وفق تقويم الفريق."
+        },
+        "ui": {
+          "stepsLabel": {
+            "tr": "Adımlar",
+            "en": "Steps",
+            "ar": "الخطوات"
+          },
+          "stepOf": {
+            "tr": "Adım {n} / {m}",
+            "en": "Step {n} of {m}",
+            "ar": "الخطوة {n} من {m}"
+          },
+          "s_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "s_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "s_party": {
+            "tr": "Kişi",
+            "en": "Guests",
+            "ar": "الضيوف"
+          },
+          "s_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "s_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "s_info": {
+            "tr": "Bilgiler",
+            "en": "Details",
+            "ar": "البيانات"
+          },
+          "s_confirm": {
+            "tr": "Onay",
+            "en": "Confirm",
+            "ar": "التأكيد"
+          },
+          "back": {
+            "tr": "Geri",
+            "en": "Back",
+            "ar": "رجوع"
+          },
+          "next": {
+            "tr": "Devam",
+            "en": "Continue",
+            "ar": "متابعة"
+          },
+          "reqNote": {
+            "tr": "* ile işaretli alanlar zorunludur.",
+            "en": "Fields marked * are required.",
+            "ar": "الحقول المميزة بعلامة * إلزامية."
+          },
+          "t_service": {
+            "tr": "Hizmet seçin",
+            "en": "Choose a service",
+            "ar": "اختر الخدمة"
+          },
+          "minUnit": {
+            "tr": "{n} dk",
+            "en": "{n} min",
+            "ar": "{n} دقيقة"
+          },
+          "t_staff": {
+            "tr": "Uzman seçin",
+            "en": "Choose a specialist",
+            "ar": "اختر المختص"
+          },
+          "anyStaff": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "anyStaffHint": {
+            "tr": "Uygun olan uzman atanır.",
+            "en": "The first available specialist is assigned.",
+            "ar": "يُسنَد الموعد إلى أول مختص متاح."
+          },
+          "t_party": {
+            "tr": "Kaç kişisiniz?",
+            "en": "How many guests?",
+            "ar": "كم عدد الضيوف؟"
+          },
+          "partyMinus": {
+            "tr": "Kişi sayısını azalt",
+            "en": "Decrease guests",
+            "ar": "تقليل عدد الضيوف"
+          },
+          "partyPlus": {
+            "tr": "Kişi sayısını artır",
+            "en": "Increase guests",
+            "ar": "زيادة عدد الضيوف"
+          },
+          "partyCount": {
+            "tr": {
+              "one": "{n} kişi",
+              "other": "{n} kişi"
+            },
+            "en": {
+              "one": "{n} guest",
+              "other": "{n} guests"
+            },
+            "ar": {
+              "zero": "{n} ضيف",
+              "one": "ضيف واحد",
+              "two": "ضيفان",
+              "few": "{n} ضيوف",
+              "many": "{n} ضيفًا",
+              "other": "{n} ضيف"
+            }
+          },
+          "groupHint": {
+            "tr": "{n} kişiden büyük gruplar için lütfen bizi arayın.",
+            "en": "For groups larger than {n}, please call us.",
+            "ar": "للمجموعات التي يزيد عددها عن {n}، يُرجى الاتصال بنا."
+          },
+          "t_section": {
+            "tr": "Bölüm tercihi",
+            "en": "Seating preference",
+            "ar": "تفضيل الجلسة"
+          },
+          "anySection": {
+            "tr": "Fark etmez",
+            "en": "No preference",
+            "ar": "لا تفضيل"
+          },
+          "t_date": {
+            "tr": "Tarih seçin",
+            "en": "Choose a date",
+            "ar": "اختر التاريخ"
+          },
+          "prevMonth": {
+            "tr": "Önceki ay",
+            "en": "Previous month",
+            "ar": "الشهر السابق"
+          },
+          "nextMonth": {
+            "tr": "Sonraki ay",
+            "en": "Next month",
+            "ar": "الشهر التالي"
+          },
+          "calHint": {
+            "tr": "Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın. Kapalı günler seçilemez.",
+            "en": "Use the arrow keys to move and Enter to select. Unavailable days cannot be chosen.",
+            "ar": "استخدم مفاتيح الأسهم للتنقل ومفتاح Enter للاختيار. لا يمكن اختيار الأيام غير المتاحة."
+          },
+          "dayUnavailable": {
+            "tr": "uygun değil",
+            "en": "unavailable",
+            "ar": "غير متاح"
+          },
+          "selectedDate": {
+            "tr": "Seçilen tarih: {d}",
+            "en": "Selected date: {d}",
+            "ar": "التاريخ المختار: {d}"
+          },
+          "t_time": {
+            "tr": "Saat seçin",
+            "en": "Choose a time",
+            "ar": "اختر الوقت"
+          },
+          "timesFor": {
+            "tr": "{d} için uygun saatler",
+            "en": "Available times for {d}",
+            "ar": "الأوقات المتاحة ليوم {d}"
+          },
+          "p_morning": {
+            "tr": "Sabah",
+            "en": "Morning",
+            "ar": "الصباح"
+          },
+          "p_afternoon": {
+            "tr": "Öğleden sonra",
+            "en": "Afternoon",
+            "ar": "بعد الظهر"
+          },
+          "p_evening": {
+            "tr": "Akşam",
+            "en": "Evening",
+            "ar": "المساء"
+          },
+          "slotTaken": {
+            "tr": "dolu",
+            "en": "booked",
+            "ar": "محجوز"
+          },
+          "noSlots": {
+            "tr": "Bu tarihte uygun saat kalmadı. Lütfen başka bir gün seçin.",
+            "en": "No times are left on this date. Please choose another day.",
+            "ar": "لا توجد أوقات متاحة في هذا اليوم. يُرجى اختيار يوم آخر."
+          },
+          "t_info": {
+            "tr": "İletişim bilgileriniz",
+            "en": "Your contact details",
+            "ar": "بيانات التواصل"
+          },
+          "fName": {
+            "tr": "Ad soyad",
+            "en": "Full name",
+            "ar": "الاسم الكامل"
+          },
+          "fPhone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "رقم الهاتف"
+          },
+          "fEmail": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "fEmailOpt": {
+            "tr": "E-posta (isteğe bağlı)",
+            "en": "E-mail (optional)",
+            "ar": "البريد الإلكتروني (اختياري)"
+          },
+          "fNote": {
+            "tr": "Not (isteğe bağlı)",
+            "en": "Note (optional)",
+            "ar": "ملاحظة (اختياري)"
+          },
+          "eService": {
+            "tr": "Lütfen bir hizmet seçin.",
+            "en": "Please choose a service.",
+            "ar": "يُرجى اختيار خدمة."
+          },
+          "eDate": {
+            "tr": "Lütfen uygun bir tarih seçin.",
+            "en": "Please choose an available date.",
+            "ar": "يُرجى اختيار تاريخ متاح."
+          },
+          "eTime": {
+            "tr": "Lütfen bir saat seçin.",
+            "en": "Please choose a time.",
+            "ar": "يُرجى اختيار وقت."
+          },
+          "eName": {
+            "tr": "Lütfen adınızı ve soyadınızı yazın.",
+            "en": "Please enter your full name.",
+            "ar": "يُرجى كتابة اسمك الكامل."
+          },
+          "ePhone": {
+            "tr": "Geçerli bir telefon numarası yazın.",
+            "en": "Please enter a valid phone number.",
+            "ar": "يُرجى كتابة رقم هاتف صحيح."
+          },
+          "eEmail": {
+            "tr": "Geçerli bir e-posta adresi yazın.",
+            "en": "Please enter a valid e-mail address.",
+            "ar": "يُرجى كتابة بريد إلكتروني صحيح."
+          },
+          "eKvkk": {
+            "tr": "Devam etmek için aydınlatma metnini onaylamanız gerekir.",
+            "en": "You need to accept the privacy notice to continue.",
+            "ar": "يجب الموافقة على إشعار الخصوصية للمتابعة."
+          },
+          "t_confirm": {
+            "tr": "Özet ve onay",
+            "en": "Review and confirm",
+            "ar": "المراجعة والتأكيد"
+          },
+          "sum_service": {
+            "tr": "Hizmet",
+            "en": "Service",
+            "ar": "الخدمة"
+          },
+          "sum_staff": {
+            "tr": "Uzman",
+            "en": "Specialist",
+            "ar": "المختص"
+          },
+          "sum_party": {
+            "tr": "Kişi sayısı",
+            "en": "Guests",
+            "ar": "عدد الضيوف"
+          },
+          "sum_section": {
+            "tr": "Bölüm",
+            "en": "Seating",
+            "ar": "الجلسة"
+          },
+          "sum_date": {
+            "tr": "Tarih",
+            "en": "Date",
+            "ar": "التاريخ"
+          },
+          "sum_time": {
+            "tr": "Saat",
+            "en": "Time",
+            "ar": "الوقت"
+          },
+          "sum_name": {
+            "tr": "Ad soyad",
+            "en": "Name",
+            "ar": "الاسم"
+          },
+          "sum_phone": {
+            "tr": "Telefon",
+            "en": "Phone",
+            "ar": "الهاتف"
+          },
+          "sum_email": {
+            "tr": "E-posta",
+            "en": "E-mail",
+            "ar": "البريد الإلكتروني"
+          },
+          "sum_note": {
+            "tr": "Not",
+            "en": "Note",
+            "ar": "ملاحظة"
+          },
+          "kvkkLink": {
+            "tr": "Aydınlatma metni",
+            "en": "Privacy notice",
+            "ar": "إشعار الخصوصية"
+          },
+          "submit_whatsapp": {
+            "tr": "WhatsApp ile gönder",
+            "en": "Send via WhatsApp",
+            "ar": "إرسال عبر واتساب"
+          },
+          "submit_mailto": {
+            "tr": "E-posta ile gönder",
+            "en": "Send by e-mail",
+            "ar": "إرسال بالبريد الإلكتروني"
+          },
+          "submit_ics": {
+            "tr": "Takvim dosyasını indir",
+            "en": "Download calendar file",
+            "ar": "تنزيل ملف التقويم"
+          },
+          "showcaseNote": {
+            "tr": "Bu bölüm bir gösterimdir: girdiğiniz bilgiler hiçbir yere gönderilmez. Gerçek talep için bizi arayabilirsiniz.",
+            "en": "This is a showcase: nothing you enter is sent anywhere. To make a real request, please call us.",
+            "ar": "هذا القسم للعرض فقط: لا تُرسَل أي بيانات تدخلها. لتقديم طلب فعلي يُرجى الاتصال بنا."
+          },
+          "callUs": {
+            "tr": "Bizi arayın",
+            "en": "Call us",
+            "ar": "اتصل بنا"
+          },
+          "restart": {
+            "tr": "Başa dön",
+            "en": "Start over",
+            "ar": "العودة إلى البداية"
+          },
+          "doneTitle_randevu": {
+            "tr": "Randevu talebiniz hazır",
+            "en": "Your appointment request is ready",
+            "ar": "طلب موعدك جاهز"
+          },
+          "doneTitle_masa": {
+            "tr": "Rezervasyon talebiniz hazır",
+            "en": "Your reservation request is ready",
+            "ar": "طلب حجزك جاهز"
+          },
+          "doneHint_whatsapp": {
+            "tr": "Mesaj WhatsApp'ta hazır olarak açıldı. Talebin bize ulaşması için mesajı göndermeyi unutmayın.",
+            "en": "The message opened in WhatsApp, ready to send. Remember to send it so your request reaches us.",
+            "ar": "فُتحت الرسالة جاهزة في واتساب. لا تنسَ إرسالها كي يصلنا طلبك."
+          },
+          "doneHint_mailto": {
+            "tr": "E-posta uygulamanızda hazır bir taslak açıldı. Göndermeyi unutmayın.",
+            "en": "A draft e-mail opened in your mail app. Remember to send it.",
+            "ar": "فُتحت مسودة رسالة في تطبيق البريد. لا تنسَ إرسالها."
+          },
+          "doneHint_ics": {
+            "tr": "Takvim dosyası indirildi. Kaydı takvim uygulamanıza ekleyebilirsiniz.",
+            "en": "The calendar file was downloaded. You can add the booking to your calendar app.",
+            "ar": "تم تنزيل ملف التقويم. يمكنك إضافة الحجز إلى تطبيق التقويم."
+          },
+          "reopen": {
+            "tr": "Mesajı yeniden aç",
+            "en": "Open the message again",
+            "ar": "فتح الرسالة مرة أخرى"
+          },
+          "reopen_ics": {
+            "tr": "Dosyayı yeniden indir",
+            "en": "Download again",
+            "ar": "إعادة التنزيل"
+          },
+          "addCal": {
+            "tr": "Takvime ekle",
+            "en": "Add to calendar",
+            "ar": "إضافة إلى التقويم"
+          },
+          "newBooking_randevu": {
+            "tr": "Yeni randevu",
+            "en": "New appointment",
+            "ar": "موعد جديد"
+          },
+          "newBooking_masa": {
+            "tr": "Yeni rezervasyon",
+            "en": "New reservation",
+            "ar": "حجز جديد"
+          },
+          "demoNote": {
+            "tr": "Demo: bilgileriniz yalnızca bu tarayıcıda saklanır, hiçbir sunucuya gönderilmez.",
+            "en": "Demo: your details stay in this browser only and are never sent to a server.",
+            "ar": "عرض تجريبي: تبقى بياناتك في هذا المتصفح فقط ولا تُرسَل إلى أي خادم."
+          },
+          "myTitle_randevu": {
+            "tr": "Randevularım",
+            "en": "My appointments",
+            "ar": "مواعيدي"
+          },
+          "myTitle_masa": {
+            "tr": "Rezervasyonlarım",
+            "en": "My reservations",
+            "ar": "حجوزاتي"
+          },
+          "cancel": {
+            "tr": "İptal et",
+            "en": "Cancel",
+            "ar": "إلغاء"
+          },
+          "cancelAria": {
+            "tr": "{d} saat {t} kaydını iptal et",
+            "en": "Cancel the booking on {d} at {t}",
+            "ar": "إلغاء الحجز بتاريخ {d} الساعة {t}"
+          },
+          "cancelled": {
+            "tr": "Kayıt iptal edildi.",
+            "en": "Booking cancelled.",
+            "ar": "تم إلغاء الحجز."
+          },
+          "svcFallback_randevu": {
+            "tr": "Randevu",
+            "en": "Appointment",
+            "ar": "موعد"
+          },
+          "msg_randevu_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {service} randevusu almak istiyorum.",
+            "en": "Hello, I would like to book {service} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد ({service}) بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_randevu_head_nosvc": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için randevu almak istiyorum.",
+            "en": "Hello, I would like to book an appointment on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز موعد بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_masa_head": {
+            "tr": "Merhaba, {name} adına {date} saat {time} için {party} masa rezervasyonu yapmak istiyorum.",
+            "en": "Hello, I would like to reserve a table for {party} on {date} at {time} under the name {name}.",
+            "ar": "مرحبًا، أود حجز طاولة لـ {party} بتاريخ {date} الساعة {time} باسم {name}."
+          },
+          "msg_staff": {
+            "tr": "Tercih edilen uzman: {staff}",
+            "en": "Preferred specialist: {staff}",
+            "ar": "المختص المفضل: {staff}"
+          },
+          "msg_section": {
+            "tr": "Bölüm: {section}",
+            "en": "Seating: {section}",
+            "ar": "الجلسة: {section}"
+          },
+          "msg_phone": {
+            "tr": "Telefon: {phone}",
+            "en": "Phone: {phone}",
+            "ar": "الهاتف: {phone}"
+          },
+          "msg_email": {
+            "tr": "E-posta: {email}",
+            "en": "E-mail: {email}",
+            "ar": "البريد الإلكتروني: {email}"
+          },
+          "msg_note": {
+            "tr": "Not: {note}",
+            "en": "Note: {note}",
+            "ar": "ملاحظة: {note}"
+          },
+          "mailSubject_randevu": {
+            "tr": "Randevu talebi – {name}",
+            "en": "Appointment request – {name}",
+            "ar": "طلب موعد – {name}"
+          },
+          "mailSubject_masa": {
+            "tr": "Rezervasyon talebi – {name}",
+            "en": "Reservation request – {name}",
+            "ar": "طلب حجز – {name}"
+          },
+          "icsSummary_randevu": {
+            "tr": "Randevu: {service}",
+            "en": "Appointment: {service}",
+            "ar": "موعد: {service}"
+          },
+          "icsSummary_masa": {
+            "tr": "Masa rezervasyonu – {party}",
+            "en": "Table reservation – {party}",
+            "ar": "حجز طاولة – {party}"
+          }
+        }
+      },
+      "id": "rpkiuy",
+      "path": "randevu-formu",
+      "local": "body",
+      "data": [],
+      "index": 27
+    },
+    {
+      "name": "Page Desing 5",
+      "desing": {
+        "stil": "yatay-kart",
+        "height": "200",
+        "opacity": "0.5",
+        "font-size": "32",
+        "backgroundcolor": "#000",
+        "menu-active": "var(--mx-site-primary, #2563eb)",
+        "activetext": "var(--mx-site-primary-contrast, #ffffff)",
+        "textcolor": "#fff",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "border_radius": "4px",
+        "card_shadow": "0 24px 60px rgba(0,0,0,.18)",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "colortitle": "var(--mx-site-text, #1b1b1b)",
+        "coloractive": "var(--mx-site-primary, #2563eb)",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Sayfalar",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "İletişim",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Pages",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Contact",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "الصفحات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "اتصل بنا",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
+      },
+      "category": "page",
+      "description": "Sayfa basligi, yan menu ve icerik alani. Urun detayinda breadcrumb, olcu kartlari, teklif/WhatsApp CTA, onceki/sonraki urun navigasyonu. Kategori menusu ve responsive slide-in menu. Görsel varyant desing.stil (31 Eki 2026, yan menü bağlantıları): \"\" klasik (kutulu liste, bugünkü görünüm) · \"ikon-ustte-yuvarlak\" (ortalı karo, üstte daire ikon) · \"yatay-kart\" (ikon solda/RTL sağda, metin yanında, ayrı kartlar) · \"kenar-cizgili\" (kutu yok, başta ince çizgi; hover/aktifte primary çizgi ve içe kayma). Kart zemini bgcolor (31 Eki) korunur; eklenen renkler var(--mx-site-primary) türevi.",
+      "version": "1.4.0",
+      "icon": "web",
+      "id": "rjvabs",
+      "path": "page-desing-5",
+      "local": "body",
+      "data": [],
+      "index": 28
+    },
+    {
+      "name": {
+        "tr": "Hızlı İletişim Kartları",
+        "en": "Quick Contact Cards",
+        "ar": "بطاقات الاتصال السريع"
+      },
+      "description": {
+        "tr": "3–4 hızlı eylem kartı: Ara (tel:), WhatsApp (wa.me hazır mesaj), E-posta (mailto:), Yol tarifi (harita bağlantısı). Her kart ikon + başlık + değer + eylem düğmesi; hover'da yükselir. Veri boş olan kart basılmaz; phone/email boşsa setting'den. Üç varyant (desing.stil): kartli · ikon-serit · dikey-liste. Üç dil, RTL, koyu mod token'larla.",
+        "en": "3–4 quick action cards: Call (tel:), WhatsApp (wa.me prefilled), E-mail (mailto:), Directions (map link). Each card has icon + title + value + action button; lifts on hover. Cards without data are omitted; phone/email fall back to setting. Three variants (desing.stil): kartli · ikon-serit · dikey-liste. Three languages, RTL, dark mode via tokens.",
+        "ar": "3–4 بطاقات إجراء سريع: اتصال (tel:)، واتساب (رسالة جاهزة)، بريد إلكتروني (mailto:)، الاتجاهات (رابط خريطة). كل بطاقة: أيقونة + عنوان + قيمة + زر. البطاقات بلا بيانات لا تُعرض. ثلاثة أنماط، ثلاث لغات، RTL، وضع داكن."
+      },
+      "version": "1.0.0",
+      "icon": "contact_phone",
+      "category": "contact",
+      "tags": [
+        "iletisim",
+        "contact",
+        "whatsapp",
+        "telefon",
+        "harita",
+        "ar"
+      ],
+      "desing": {
+        "max": "1200px",
+        "stil": "kartli",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "radius": "4px",
+        "title": {
+          "tr": "Hemen Ulaşın",
+          "en": "Reach Us Instantly",
+          "ar": "تواصل معنا فورًا"
+        },
+        "description": {
+          "tr": "Size en uygun kanalı seçin; mesai saatleri içinde dakikalar içinde yanıtlıyoruz.",
+          "en": "Pick the channel that suits you; we reply within minutes during working hours.",
+          "ar": "اختر القناة الأنسب لك؛ نرد خلال دقائق أثناء ساعات العمل."
+        },
+        "phone": "+90 342 000 00 00",
+        "whatsapp": "903420000000",
+        "email": "saha@kizilvinc.example",
+        "address": {
+          "tr": "Sanayi Bölgesi 2. Cd. No: 40, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "40 2nd Street, Industrial Zone, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "المنطقة الصناعية، الشارع الثاني رقم 40، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "mapsUrl": "",
+        "waMessage": {
+          "tr": "Merhaba, web sitenizden ulaşıyorum. Bilgi almak istiyorum.",
+          "en": "Hello, I am reaching you from your website. I would like some information.",
+          "ar": "مرحبًا، أتواصل معكم من موقعكم الإلكتروني وأرغب في الحصول على معلومات."
+        },
+        "callTitle": {
+          "tr": "Bizi Arayın",
+          "en": "Call Us",
+          "ar": "اتصل بنا"
+        },
+        "callText": {
+          "tr": "Hafta içi 09:00 – 18:00",
+          "en": "Weekdays 09:00 – 18:00",
+          "ar": "أيام الأسبوع 09:00 – 18:00"
+        },
+        "callBtn": {
+          "tr": "Ara",
+          "en": "Call",
+          "ar": "اتصال"
+        },
+        "waTitle": {
+          "tr": "WhatsApp",
+          "en": "WhatsApp",
+          "ar": "واتساب"
+        },
+        "waText": {
+          "tr": "Hızlı yanıt için yazın",
+          "en": "Message us for a quick reply",
+          "ar": "راسلنا للحصول على رد سريع"
+        },
+        "waBtn": {
+          "tr": "Mesaj gönder",
+          "en": "Send message",
+          "ar": "إرسال رسالة"
+        },
+        "mailTitle": {
+          "tr": "E-posta",
+          "en": "E-mail",
+          "ar": "البريد الإلكتروني"
+        },
+        "mailText": {
+          "tr": "Teklif ve detaylı sorular için",
+          "en": "For quotes and detailed questions",
+          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+        },
+        "mailBtn": {
+          "tr": "E-posta gönder",
+          "en": "Send e-mail",
+          "ar": "إرسال بريد"
+        },
+        "mapTitle": {
+          "tr": "Yol Tarifi",
+          "en": "Directions",
+          "ar": "الاتجاهات"
+        },
+        "mapBtn": {
+          "tr": "Haritada aç",
+          "en": "Open in maps",
+          "ar": "فتح في الخرائط"
+        },
+        "groupLabel": {
+          "tr": "Hızlı iletişim kanalları",
+          "en": "Quick contact channels",
+          "ar": "قنوات الاتصال السريع"
+        }
+      },
+      "data": [],
+      "id": "3az50u",
+      "path": "iletisim-kartlari",
+      "local": "body",
+      "index": 29
+    },
+    {
+      "name": "İletişim",
+      "desing": {
+        "stil": "kartli",
+        "color": "var(--mx-site-text, #1b1b1b)",
+        "name": {
+          "tr": "Resmî bilgiler",
+          "en": "Official details",
+          "ar": "بيانات رسمية"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #2563eb)"
+      },
+      "data": [
+        {
+          "icon": "verified",
+          "text": {
+            "tr": "Periyodik kontrol raporları ve operatör yeterlilik belgeleri güncel (DEMO, kurgusal)",
+            "en": "Periodic inspection reports and operator certificates are current (DEMO, fictional)",
+            "ar": "تقارير الفحص الدوري وشهادات المشغلين سارية (DEMO افتراضية)"
+          },
+          "url": ""
+        }
+      ],
+      "category": "contact",
+      "description": "İletişim bilgileri görüntüleme modülü. Telefon, email ve adres bilgilerini icon ile şık tasarımda sunar. 26 farklı projede kullanılır: kurumsal şirketler, restoranlar, e-ticaret siteleri, sağlık kuruluşları ve hizmet sektöründe. Responsive kart düzeni ve tıklanabilir telefon/email linkleri içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (çerçeveli liste, bugünkü görünüm) · \"kartli\" (her bilgi ortalı bir kart, 3→2→1 sütun) · \"koyu-panel\" (sol koyu başlık paneli primary/primary-contrast + sağda ayraçlı liste). Varyant renkleri yalnız var(--mx-site-*) token.",
+      "version": "1.1.0",
+      "icon": "contact_mail",
+      "id": "07njen",
+      "path": "contact-3",
+      "local": "body",
+      "index": 30
+    },
+    {
+      "name": "Maps",
+      "desing": {
+        "stil": "cerceveli",
+        "height": "200",
+        "opacity": "0.5",
+        "backgroundcolor": "#ffffff",
+        "color": "#1e3046",
+        "img": "map.png",
+        "externalUrl": "",
+        "address": {
+          "tr": "Sanayi Bölgesi 2. Cd. No: 40, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "40 2nd Street, Industrial Zone, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "المنطقة الصناعية، الشارع الثاني رقم 40، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "saha@kizilvinc.example",
+        "badgeText": {
+          "tr": "Konumumuz",
+          "en": "Our Location",
+          "ar": "موقعنا"
+        },
+        "infoTitle": {
+          "tr": "Bize Ulaşın",
+          "en": "Contact Us",
+          "ar": "اتصل بنا"
+        },
+        "directions": {
+          "tr": "Yol tarifi al",
+          "en": "Get directions",
+          "ar": "احصل على الاتجاهات"
+        }
+      },
+      "category": "map",
+      "description": "Google Maps konum gösterim modülü. Firmanın fiziksel konumunu interaktif harita ile sergiler. 20 farklı projede kullanılır: kurumsal şirketler, restoranlar, sağlık kuruluşları, üretim firmaları ve hizmet sektöründe. Yol tarifi ve harita üzerinde zoom özellikleri vardır. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (dalgalı kenar, tam genişlik, bugünkü görünüm) · \"cerceveli\" (yuvarlak köşe + gölge + yüzey çerçeve, üstte adres rozeti: address ya da badgeText) · \"yan-bilgi\" (harita 2/3, yanda bilgi kartı: infoTitle, address/phone/email — boşsa setting'den — ve directions düğmesi). Kök eleman <a> olduğundan kartta ikinci bağlantı yok. Renkler var(--mx-site-*) token; backgroundcolor #ffffff kuralı değişmedi.",
+      "version": "1.1.0",
+      "icon": "map",
+      "id": "bsuswg",
+      "path": "map",
+      "local": "body",
+      "data": [],
+      "index": 31
+    },
+    {
+      "name": "Footer 9 — Kurumsal",
+      "desing": {
+        "showlang": true,
+        "maxpages": 8,
+        "bgcolor": "var(--mx-site-surface-2, #1f2937)",
+        "color": "var(--mx-site-text, #f3f4f6)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 72%, transparent)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #f3f4f6) 18%, transparent)",
+        "logo_maxh": "56px",
+        "logo_plate": false,
+        "about": {
+          "tr": "Kızıl Vinç: ekskavatör, vinç ve yükleyici kiralama; operatörlü hizmet, periyodik kontrollü ekipman. (Demo site)",
+          "en": "Kizil Vinc Machinery: excavator, crane and loader hire; operated service, periodically inspected equipment. (Demo site)",
+          "ar": "قزل فينتش للآليات: تأجير حفارات ورافعات وجرافات بخدمة مع مشغّل ومعدات خاضعة للفحص الدوري. (موقع تجريبي)"
+        },
+        "title_pages": {
+          "tr": "Sayfalar",
+          "en": "Pages",
+          "ar": "الصفحات"
+        },
+        "title_contact": {
+          "tr": "İletişim",
+          "en": "Contact",
+          "ar": "اتصل بنا"
+        },
+        "title_social": {
+          "tr": "Bizi Takip Edin",
+          "en": "Follow Us",
+          "ar": "تابعنا"
+        },
+        "address": {
+          "tr": "Sanayi Bölgesi 2. Cd. No: 40, Şehitkamil, Gaziantep (kurgusal adres)",
+          "en": "40 2nd Street, Industrial Zone, Sehitkamil, Gaziantep (fictional address)",
+          "ar": "المنطقة الصناعية، الشارع الثاني رقم 40، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+        },
+        "phone": "+90 342 000 00 00",
+        "email": "saha@kizilvinc.example",
+        "social": [],
+        "legal": [
+          {
+            "text": {
+              "tr": "Gizlilik Politikası",
+              "en": "Privacy Policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "name": {
+              "tr": "Gizlilik Politikası",
+              "en": "Privacy Policy",
+              "ar": "سياسة الخصوصية"
+            },
+            "href": "gizlilikpolitikasi"
+          },
+          {
+            "text": {
+              "tr": "Kişisel Veriler",
+              "en": "Personal Data",
+              "ar": "البيانات الشخصية"
+            },
+            "name": {
+              "tr": "Kişisel Veriler",
+              "en": "Personal Data",
+              "ar": "البيانات الشخصية"
+            },
+            "href": "kisiselveriler"
+          },
+          {
+            "text": {
+              "tr": "Kullanıcı Hakları",
+              "en": "User Rights",
+              "ar": "حقوق المستخدم"
+            },
+            "name": {
+              "tr": "Kullanıcı Hakları",
+              "en": "User Rights",
+              "ar": "حقوق المستخدم"
+            },
+            "href": "kullanicahaklari"
+          },
+          {
+            "text": {
+              "tr": "Yasal Uyarı",
+              "en": "Legal Notice",
+              "ar": "إشعار قانوني"
+            },
+            "name": {
+              "tr": "Yasal Uyarı",
+              "en": "Legal Notice",
+              "ar": "إشعار قانوني"
+            },
+            "href": "yasaluyari"
+          }
+        ],
+        "rightsText": {
+          "tr": "Tüm hakları saklıdır.",
+          "en": "All rights reserved.",
+          "ar": "جميع الحقوق محفوظة."
+        }
+      },
+      "category": "footer",
+      "data": [],
+      "description": "Kurumsal alt bilgi (footer): 4 sütun — marka (logo + kısa metin), sayfalar, iletişim (address/phone/email; boşsa setting.phone/email, hiçbiri yoksa sütun gizli), sosyal (social: [{ad,url}]; boşsa gizli). Alt şerit: telif (yıl otomatik), yasal bağlantılar (legal: [{text,href}], dil önekli), dil seçici. Renkler yalnız desing anahtarı + var(--mx-site-*, fallback): token'sız sitede fallback, colorScheme:auto sitede koyu mod uyumlu. logo_maxh / logo_plate footer-3 ile aynı.",
+      "version": "1.0.0",
+      "icon": "footer",
+      "id": "e0w7m8",
+      "path": "footer-9",
+      "local": "footer",
+      "index": 32
+    }
+  ]
+}

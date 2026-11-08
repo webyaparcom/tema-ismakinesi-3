@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "id": "2ruvw77s4l",
+      "name": {
+        "tr": "Makine Parkı",
+        "en": "Machine Fleet",
+        "ar": "أسطول الآليات"
+      },
+      "description": {
+        "tr": "Kaldırma ekipmanları periyodik kontrolden geçer; kontrol raporları ve operatör mesleki yeterlilik belgeleri (DEMO) güncel tutulur.",
+        "en": "Lifting equipment goes through periodic inspection; inspection reports and operator vocational qualification certificates (DEMO) are kept current.",
+        "ar": "تخضع معدات الرفع لفحص دوري؛ وتُحدَّث تقارير الفحص وشهادات الكفاءة المهنية للمشغلين (DEMO) باستمرار."
+      },
+      "path": "makine-parki",
+      "icon": "construction",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "drqx7s",
+          "hyunfp",
+          "bqke9r"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "zwiaxdby0i",
+      "name": {
+        "tr": "Teklif Al",
+        "en": "Get a Quote",
+        "ar": "اطلب عرض سعر"
+      },
+      "description": {
+        "tr": "Makine grubunu ve uygun günü seçin; talebiniz bu demo sitede yalnızca tarayıcınızda oluşturulur.",
+        "en": "Choose a machine group and a convenient day; on this demo site your request is created only in your browser.",
+        "ar": "اختر مجموعة الآلية واليوم المناسب؛ يُنشأ طلبك في متصفحك فقط."
+      },
+      "path": "teklif-al",
+      "icon": "request_quote",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "rpkiuy"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "k0d913kyry",
+      "name": {
+        "tr": "Kiralama Koşulları",
+        "en": "Rental Terms",
+        "ar": "شروط التأجير"
+      },
+      "description": {
+        "tr": "Operatörlü/operatörsüz kiralama ve periyodik kontrol bilgisi.",
+        "en": "Operated / dry hire and periodic-inspection information.",
+        "ar": "التأجير مع مشغّل أو بدونه ومعلومات الفحص الدوري."
+      },
+      "path": "kiralama-kosullari",
+      "icon": "gavel",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "rjvabs"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "xn3a5aq7sc",
+      "name": {
+        "tr": "Galeri",
+        "en": "Gallery",
+        "ar": "المعرض"
+      },
+      "description": {
+        "tr": "Makine parkı ve şantiye görüntüleri; temsilidir.",
+        "en": "Fleet and site images; illustrative.",
+        "ar": "صور الأسطول والمواقع؛ توضيحية."
+      },
+      "path": "galeri",
+      "icon": "photo_library",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "hitm5z"
+        ],
+        "footer": []
+      },
+      "index": 3
+    },
+    {
+      "name": {
+        "tr": "Hakkımızda",
+        "en": "About",
+        "ar": "من نحن"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 4,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "s6xtx2",
+          "w3801d"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Kızıl Vinç, ağır kaldırma işlerinde güvenliği ve belgeyi pazarlıktan önce sayan kurgusal bir demo firmadır. Bu sitedeki makine, belge ve adres bilgileri kurgusaldır.",
+        "en": "Kizil Vinc is a fictional demo company that puts safety and documentation before bargaining in heavy lifting work. Machines, documents and addresses on this site are fictional.",
+        "ar": "قزل فينتش شركة تجريبية افتراضية تضع السلامة والتوثيق قبل المساومة في أعمال الرفع الثقيل. الآليات والوثائق والعناوين في هذا الموقع افتراضية."
+      }
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 5,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "3az50u",
+          "07njen",
+          "bsuswg"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, telefon, e-posta ve çalışma saatleri.",
+        "en": "Address, phone, e-mail and opening hours.",
+        "ar": "العنوان والهاتف والبريد الإلكتروني وساعات العمل."
+      }
+    }
+  ],
+  "desc": []
+}
